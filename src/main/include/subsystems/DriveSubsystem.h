@@ -14,7 +14,7 @@
 #include <frc/kinematics/MecanumDriveOdometry.h>
 #include <frc/kinematics/MecanumDriveWheelSpeeds.h>
 #include <frc2/command/SubsystemBase.h>
-#include <rev/CANSparkMax.h>
+#include "rev/CANSparkMax.h"
 
 #include "Constants.h"
 
