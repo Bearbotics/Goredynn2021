@@ -136,10 +136,10 @@ class DriveSubsystem : public frc2::SubsystemBase {
   // declared private and exposed only through public methods.
 
   // The motor controllers
-  rev::CANSparkMax m_frontLeft;
-  rev::CANSparkMax m_rearLeft;
-  rev::CANSparkMax m_frontRight;
-  rev::CANSparkMax m_rearRight;
+  rev::CANSparkMax {m_frontLeft};
+  rev::CANSparkMax {m_rearLeft};
+  rev::CANSparkMax {m_frontRight};
+  rev::CANSparkMax {m_rearRight};
 
   // The robot's drive
   frc::MecanumDrive m_drive{m_frontLeft, m_rearLeft, m_frontRight, m_rearRight};
@@ -156,7 +156,7 @@ class DriveSubsystem : public frc2::SubsystemBase {
   // The rear-right-side drive encoder
   frc::Encoder m_rearRightEncoder;
 
-  // The gyro sensor
+  // The gyro sensor; TODO: switchout for pigeon imu
   frc::ADXRS450_Gyro m_gyro;
 
   // Odometry class for tracking robot pose
