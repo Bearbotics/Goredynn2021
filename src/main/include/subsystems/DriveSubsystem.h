@@ -137,10 +137,10 @@ private:
   // declared private and exposed only through public methods.
 
   // The motor controllers
-  rev::CANSparkMax m_frontLeft{kFrontLeftMotorPort, rev::CANSparkMax::MotorType::kBrushless};
-  rev::CANSparkMax m_rearLeft{kRearLeftMotorPort, rev::CANSparkMax::MotorType::kBrushless};
-  rev::CANSparkMax m_frontRight{kFrontRightMotorPort, rev::CANSparkMax::MotorType::kBrushless};
-  rev::CANSparkMax m_rearRight{kRearRightMotorPort, rev::CANSparkMax::MotorType::kBrushless};
+  rev::CANSparkMax m_frontLeft{DriveConstants::kFrontLeftMotorPort, rev::CANSparkMax::MotorType::kBrushless};
+  rev::CANSparkMax m_rearLeft{DriveConstants::kRearLeftMotorPort, rev::CANSparkMax::MotorType::kBrushless};
+  rev::CANSparkMax m_frontRight{DriveConstants::kFrontRightMotorPort, rev::CANSparkMax::MotorType::kBrushless};
+  rev::CANSparkMax m_rearRight{DriveConstants::kRearRightMotorPort, rev::CANSparkMax::MotorType::kBrushless};
 
   // The robot's drive
   frc::MecanumDrive m_drive{m_frontLeft, m_rearLeft, m_frontRight, m_rearRight};
