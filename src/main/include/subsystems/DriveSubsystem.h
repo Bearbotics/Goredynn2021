@@ -136,10 +136,10 @@ class DriveSubsystem : public frc2::SubsystemBase {
   // declared private and exposed only through public methods.
 
   // The motor controllers
-  rev:: m_frontLeft;
-  frc::PWMVictorSPX m_rearLeft;
-  frc::PWMVictorSPX m_frontRight;
-  frc::PWMVictorSPX m_rearRight;
+  rev::CANSparkMax m_frontLeft;
+  rev::CANSparkMax m_rearLeft;
+  rev::CANSparkMax m_frontRight;
+  rev::CANSparkMax m_rearRight;
 
   // The robot's drive
   frc::MecanumDrive m_drive{m_frontLeft, m_rearLeft, m_frontRight, m_rearRight};
