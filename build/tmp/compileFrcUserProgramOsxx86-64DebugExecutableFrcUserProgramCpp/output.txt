@@ -1,0 +1,31 @@
+See file:///Users/wlanderson23/Documents/GitHub/Goredynn2021/build/tmp/compileFrcUserProgramOsxx86-64DebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramOsxx86-64DebugExecutableFrcUserProgramCpp.
+compiling RobotContainer.cpp successful.
+In file included from /Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/RobotContainer.cpp:13:
+In file included from /Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/frc/trajectory/TrajectoryGenerator.h:12:
+In file included from /Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/frc/spline/SplineParameterizer.h:38:
+In file included from /Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/frc/spline/Spline.h:10:
+/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/wpi/array.h:93:1: warning: 'tuple_size' defined as a struct template here but previously declared as a class template [-Wmismatched-tags]
+struct tuple_size<wpi::array<T, N>> : public integral_constant<size_t, N> {};
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple:25:22: note: did you mean struct here?
+template <class _Tp> class _LIBCPP_TEMPLATE_VIS tuple_size;
+                     ^
+In file included from /Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/RobotContainer.cpp:13:
+In file included from /Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/frc/trajectory/TrajectoryGenerator.h:12:
+In file included from /Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/frc/spline/SplineParameterizer.h:38:
+In file included from /Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/frc/spline/Spline.h:10:
+/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/wpi/array.h:97:1: warning: 'tuple_element' defined as a struct template here but previously declared as a class template [-Wmismatched-tags]
+struct tuple_element<I, wpi::array<T, N>> {
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple:57:34: note: did you mean struct here?
+template <size_t _Ip, class _Tp> class _LIBCPP_TEMPLATE_VIS tuple_element;
+                                 ^
+2 warnings generated.
+
+compiling DriveSubsystem.cpp successful.
+
+compiling Robot.cpp successful.
+
+compiling Constants.cpp successful.
+
+Finished compileFrcUserProgramOsxx86-64DebugExecutableFrcUserProgramCpp, see full log file:///Users/wlanderson23/Documents/GitHub/Goredynn2021/build/tmp/compileFrcUserProgramOsxx86-64DebugExecutableFrcUserProgramCpp/output.txt.

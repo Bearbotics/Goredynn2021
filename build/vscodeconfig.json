@@ -1,0 +1,1154 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "/Users/wlanderson23/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-g++",
+    "cPath": "/Users/wlanderson23/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/0ac1f9622b5648bb240c0c282caccbf7/chipobject-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/562a9fc7244d5a496edbc428ba5128ad/netcomm-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/2c5a9d59ff11bb0030a53e5eaf7b868a/visa-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+      "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/20c63a407d4f08909e29be34d55c9ac2/wpilibNewCommands-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3829b97b84715a65a78bfefa9865e335/wpilibc-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/4d822b23da0656f7b8530a31e52da65b/ntcore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/9011cd2c143410c93b3274cd321797bc/hal-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/1344e3e551ef9a68e9dbd8a630d25868/wpiutil-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/e0e8337938b8e947d00a449801ec6ecd/wpimath-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b0349d96d5a161423e251e030522b9ec/cameraserver-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/8606a5410504afdd15ac434a5efa5b4c/cscore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/df188c48f832a35b28665fbea134478e/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibSources": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/20c63a407d4f08909e29be34d55c9ac2/wpilibNewCommands-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3829b97b84715a65a78bfefa9865e335/wpilibc-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/4d822b23da0656f7b8530a31e52da65b/ntcore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/9011cd2c143410c93b3274cd321797bc/hal-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/1344e3e551ef9a68e9dbd8a630d25868/wpiutil-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/e0e8337938b8e947d00a449801ec6ecd/wpimath-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b0349d96d5a161423e251e030522b9ec/cameraserver-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/8606a5410504afdd15ac434a5efa5b4c/cscore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/df188c48f832a35b28665fbea134478e/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/0ac1f9622b5648bb240c0c282caccbf7/chipobject-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/562a9fc7244d5a496edbc428ba5128ad/netcomm-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/2c5a9d59ff11bb0030a53e5eaf7b868a/visa-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+      "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og",
+              "-g"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/0ac1f9622b5648bb240c0c282caccbf7/chipobject-2020.10.1-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/562a9fc7244d5a496edbc428ba5128ad/netcomm-2020.10.1-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/2c5a9d59ff11bb0030a53e5eaf7b868a/visa-2020.10.1-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+          "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "/Users/wlanderson23/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-g++",
+    "cPath": "/Users/wlanderson23/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/0ac1f9622b5648bb240c0c282caccbf7/chipobject-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/562a9fc7244d5a496edbc428ba5128ad/netcomm-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/2c5a9d59ff11bb0030a53e5eaf7b868a/visa-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+      "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/20c63a407d4f08909e29be34d55c9ac2/wpilibNewCommands-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3829b97b84715a65a78bfefa9865e335/wpilibc-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/4d822b23da0656f7b8530a31e52da65b/ntcore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/9011cd2c143410c93b3274cd321797bc/hal-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/1344e3e551ef9a68e9dbd8a630d25868/wpiutil-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/e0e8337938b8e947d00a449801ec6ecd/wpimath-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b0349d96d5a161423e251e030522b9ec/cameraserver-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/8606a5410504afdd15ac434a5efa5b4c/cscore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/df188c48f832a35b28665fbea134478e/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibSources": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/20c63a407d4f08909e29be34d55c9ac2/wpilibNewCommands-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3829b97b84715a65a78bfefa9865e335/wpilibc-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/4d822b23da0656f7b8530a31e52da65b/ntcore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/9011cd2c143410c93b3274cd321797bc/hal-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/1344e3e551ef9a68e9dbd8a630d25868/wpiutil-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/e0e8337938b8e947d00a449801ec6ecd/wpimath-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b0349d96d5a161423e251e030522b9ec/cameraserver-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/8606a5410504afdd15ac434a5efa5b4c/cscore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/df188c48f832a35b28665fbea134478e/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/0ac1f9622b5648bb240c0c282caccbf7/chipobject-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/562a9fc7244d5a496edbc428ba5128ad/netcomm-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/2c5a9d59ff11bb0030a53e5eaf7b868a/visa-2020.10.1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+      "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/0ac1f9622b5648bb240c0c282caccbf7/chipobject-2020.10.1-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/562a9fc7244d5a496edbc428ba5128ad/netcomm-2020.10.1-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/2c5a9d59ff11bb0030a53e5eaf7b868a/visa-2020.10.1-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+          "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "osxx86-64",
+    "architecture": "x86-64",
+    "operatingSystem": "Mac OS X",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "/usr/bin/g++",
+    "cPath": "/usr/bin/gcc",
+    "msvc": false,
+    "gcc": false,
+    "systemCppMacros": [],
+    "systemCppArgs": [
+      "-m64"
+    ],
+    "systemCMacros": [],
+    "systemCArgs": [
+      "-m64"
+    ],
+    "allLibFiles": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+      "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/20c63a407d4f08909e29be34d55c9ac2/wpilibNewCommands-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3829b97b84715a65a78bfefa9865e335/wpilibc-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/4d822b23da0656f7b8530a31e52da65b/ntcore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/9011cd2c143410c93b3274cd321797bc/hal-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/1344e3e551ef9a68e9dbd8a630d25868/wpiutil-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/e0e8337938b8e947d00a449801ec6ecd/wpimath-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b0349d96d5a161423e251e030522b9ec/cameraserver-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/8606a5410504afdd15ac434a5efa5b4c/cscore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/df188c48f832a35b28665fbea134478e/opencv-cpp-3.4.7-5-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/980373a3b376089298cef90bbf4740da/googletest-1.9.0-5-437e100-1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bb04855937ad7e1be7bf1e865f94ac27/googletest-1.9.0-5-437e100-1-sources/"
+    ],
+    "allLibSources": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/20c63a407d4f08909e29be34d55c9ac2/wpilibNewCommands-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3829b97b84715a65a78bfefa9865e335/wpilibc-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/4d822b23da0656f7b8530a31e52da65b/ntcore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/9011cd2c143410c93b3274cd321797bc/hal-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/1344e3e551ef9a68e9dbd8a630d25868/wpiutil-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/e0e8337938b8e947d00a449801ec6ecd/wpimath-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b0349d96d5a161423e251e030522b9ec/cameraserver-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/8606a5410504afdd15ac434a5efa5b4c/cscore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/df188c48f832a35b28665fbea134478e/opencv-cpp-3.4.7-5-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bb04855937ad7e1be7bf1e865f94ac27/googletest-1.9.0-5-437e100-1-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+      "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/980373a3b376089298cef90bbf4740da/googletest-1.9.0-5-437e100-1-headers/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-pedantic",
+              "-fPIC",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-Wno-missing-field-initializers",
+              "-Wno-unused-private-field",
+              "-Wno-unused-const-variable",
+              "-Wno-error=c11-extensions",
+              "-pthread",
+              "-O0",
+              "-g"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+          "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "componentName": "frcUserProgramTest",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/test/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/frcUserProgramTest/headers/"
+              ],
+              "includes": [
+                "**/*.cpp"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-pedantic",
+              "-fPIC",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-Wno-missing-field-initializers",
+              "-Wno-unused-private-field",
+              "-Wno-unused-const-variable",
+              "-Wno-error=c11-extensions",
+              "-pthread",
+              "-O0",
+              "-g"
+            ],
+            "macros": [
+              "RUNNING_FRC_TESTS"
+            ]
+          },
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-pedantic",
+              "-fPIC",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-Wno-missing-field-initializers",
+              "-Wno-unused-private-field",
+              "-Wno-unused-const-variable",
+              "-Wno-error=c11-extensions",
+              "-pthread",
+              "-O0",
+              "-g"
+            ],
+            "macros": [
+              "RUNNING_FRC_TESTS"
+            ]
+          }
+        ],
+        "libHeaders": [
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/980373a3b376089298cef90bbf4740da/googletest-1.9.0-5-437e100-1-headers/",
+          "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-pedantic",
+          "-fPIC",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-missing-field-initializers",
+          "-Wno-unused-private-field",
+          "-Wno-unused-const-variable",
+          "-Wno-error=c11-extensions",
+          "-pthread",
+          "-O0",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-pedantic",
+          "-fPIC",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-missing-field-initializers",
+          "-Wno-unused-private-field",
+          "-Wno-unused-const-variable",
+          "-Wno-error=c11-extensions",
+          "-pthread",
+          "-O0",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/test/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-pedantic",
+          "-fPIC",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-missing-field-initializers",
+          "-Wno-unused-private-field",
+          "-Wno-unused-const-variable",
+          "-Wno-error=c11-extensions",
+          "-pthread",
+          "-O0",
+          "-g"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/frcUserProgramTest/headers/"
+          ],
+          "includes": [
+            "**/*.cpp"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-pedantic",
+          "-fPIC",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-missing-field-initializers",
+          "-Wno-unused-private-field",
+          "-Wno-unused-const-variable",
+          "-Wno-error=c11-extensions",
+          "-pthread",
+          "-O0",
+          "-g"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0,
+      "frcUserProgramTest": 1
+    }
+  },
+  {
+    "name": "osxx86-64",
+    "architecture": "x86-64",
+    "operatingSystem": "Mac OS X",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "/usr/bin/g++",
+    "cPath": "/usr/bin/gcc",
+    "msvc": false,
+    "gcc": false,
+    "systemCppMacros": [],
+    "systemCppArgs": [
+      "-m64"
+    ],
+    "systemCMacros": [],
+    "systemCArgs": [
+      "-m64"
+    ],
+    "allLibFiles": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+      "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/20c63a407d4f08909e29be34d55c9ac2/wpilibNewCommands-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3829b97b84715a65a78bfefa9865e335/wpilibc-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/4d822b23da0656f7b8530a31e52da65b/ntcore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/9011cd2c143410c93b3274cd321797bc/hal-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/1344e3e551ef9a68e9dbd8a630d25868/wpiutil-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/e0e8337938b8e947d00a449801ec6ecd/wpimath-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b0349d96d5a161423e251e030522b9ec/cameraserver-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/8606a5410504afdd15ac434a5efa5b4c/cscore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/df188c48f832a35b28665fbea134478e/opencv-cpp-3.4.7-5-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/980373a3b376089298cef90bbf4740da/googletest-1.9.0-5-437e100-1-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bb04855937ad7e1be7bf1e865f94ac27/googletest-1.9.0-5-437e100-1-sources/"
+    ],
+    "allLibSources": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/20c63a407d4f08909e29be34d55c9ac2/wpilibNewCommands-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3829b97b84715a65a78bfefa9865e335/wpilibc-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/4d822b23da0656f7b8530a31e52da65b/ntcore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/9011cd2c143410c93b3274cd321797bc/hal-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/1344e3e551ef9a68e9dbd8a630d25868/wpiutil-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/e0e8337938b8e947d00a449801ec6ecd/wpimath-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b0349d96d5a161423e251e030522b9ec/cameraserver-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/8606a5410504afdd15ac434a5efa5b4c/cscore-cpp-2021.2.2-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/df188c48f832a35b28665fbea134478e/opencv-cpp-3.4.7-5-sources/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bb04855937ad7e1be7bf1e865f94ac27/googletest-1.9.0-5-437e100-1-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+      "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/",
+      "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/980373a3b376089298cef90bbf4740da/googletest-1.9.0-5-437e100-1-headers/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-pedantic",
+              "-fPIC",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-Wno-missing-field-initializers",
+              "-Wno-unused-private-field",
+              "-Wno-unused-const-variable",
+              "-Wno-error=c11-extensions",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+          "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "componentName": "frcUserProgramTest",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/test/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/frcUserProgramTest/headers/"
+              ],
+              "includes": [
+                "**/*.cpp"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-pedantic",
+              "-fPIC",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-Wno-missing-field-initializers",
+              "-Wno-unused-private-field",
+              "-Wno-unused-const-variable",
+              "-Wno-error=c11-extensions",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": [
+              "RUNNING_FRC_TESTS"
+            ]
+          },
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-pedantic",
+              "-fPIC",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-Wno-missing-field-initializers",
+              "-Wno-unused-private-field",
+              "-Wno-unused-const-variable",
+              "-Wno-error=c11-extensions",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": [
+              "RUNNING_FRC_TESTS"
+            ]
+          }
+        ],
+        "libHeaders": [
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/30902abd5916d0d4c777428e4837fe97/SparkMax-cpp-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/c7656d530b025882852a05f0a5c26157/SparkMax-driver-1.5.4-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/a1e6e217a8e460d915a8d11668e59477/wpilibNewCommands-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/46d361852946ad839322f48fbe324c7d/wpilibc-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/3533bbfca6c95098a27de7b1c8b7f6b1/ntcore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/13199b45c6d1b61100f9bf65876f1187/hal-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/bc553d4d18e1d6074bbc645b5ce71353/wpiutil-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/5da937cd93fff72a5908bf75125c9c42/wpimath-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/37700957549ff20d02a76b45c566a9c4/cameraserver-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/b4ad56e8c51465a9e9f54a161c0eb10c/cscore-cpp-2021.2.2-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/694e3280d054895d6632ae37694b59da/opencv-cpp-3.4.7-5-headers/",
+          "/Users/wlanderson23/.gradle/caches/transforms-2/files-2.1/980373a3b376089298cef90bbf4740da/googletest-1.9.0-5-437e100-1-headers/",
+          "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-pedantic",
+          "-fPIC",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-missing-field-initializers",
+          "-Wno-unused-private-field",
+          "-Wno-unused-const-variable",
+          "-Wno-error=c11-extensions",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-pedantic",
+          "-fPIC",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-missing-field-initializers",
+          "-Wno-unused-private-field",
+          "-Wno-unused-const-variable",
+          "-Wno-error=c11-extensions",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/test/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-pedantic",
+          "-fPIC",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-missing-field-initializers",
+          "-Wno-unused-private-field",
+          "-Wno-unused-const-variable",
+          "-Wno-error=c11-extensions",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/wlanderson23/Documents/GitHub/Goredynn2021/src/frcUserProgramTest/headers/"
+          ],
+          "includes": [
+            "**/*.cpp"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-pedantic",
+          "-fPIC",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-Wno-missing-field-initializers",
+          "-Wno-unused-private-field",
+          "-Wno-unused-const-variable",
+          "-Wno-error=c11-extensions",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0,
+      "frcUserProgramTest": 1
+    }
+  }
+]
