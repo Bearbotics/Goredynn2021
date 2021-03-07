@@ -13,10 +13,10 @@
 using namespace DriveConstants;
 
 DriveSubsystem::DriveSubsystem()
-    : m_frontLeft{kFrontLeftMotorPort},
-      m_rearLeft{kRearLeftMotorPort},
-      m_frontRight{kFrontRightMotorPort},
-      m_rearRight{kRearRightMotorPort},
+    : m_frontLeft{kFrontLeftMotorPort,rev::CANSparkMax::MotorType::kBrushless},
+      m_rearLeft{kRearLeftMotorPort,rev::CANSparkMax::MotorType::kBrushless},
+      m_frontRight{kFrontRightMotorPort,rev::CANSparkMax::MotorType::kBrushless},
+      m_rearRight{kRearRightMotorPort,rev::CANSparkMax::MotorType::kBrushless},
 
       m_frontLeftEncoder{kFrontLeftEncoderPorts[0], kFrontLeftEncoderPorts[1],
                          kFrontLeftEncoderReversed},
