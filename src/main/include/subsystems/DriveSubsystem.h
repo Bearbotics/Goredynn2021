@@ -18,8 +18,9 @@
 
 #include "Constants.h"
 
-class DriveSubsystem : public frc2::SubsystemBase {
- public:
+class DriveSubsystem : public frc2::SubsystemBase
+{
+public:
   DriveSubsystem();
 
   /**
@@ -52,28 +53,28 @@ class DriveSubsystem : public frc2::SubsystemBase {
    *
    * @return the front left drive encoder
    */
-  frc::Encoder& GetFrontLeftEncoder();
+  frc::Encoder &GetFrontLeftEncoder();
 
   /**
    * Gets the rear left drive encoder.
    *
    * @return the rear left drive encoder
    */
-  frc::Encoder& GetRearLeftEncoder();
+  frc::Encoder &GetRearLeftEncoder();
 
   /**
    * Gets the front right drive encoder.
    *
    * @return the front right drive encoder
    */
-  frc::Encoder& GetFrontRightEncoder();
+  frc::Encoder &GetFrontRightEncoder();
 
   /**
    * Gets the rear right drive encoder.
    *
    * @return the rear right drive encoder
    */
-  frc::Encoder& GetRearRightEncoder();
+  frc::Encoder &GetRearRightEncoder();
 
   /**
    * Gets the wheel speeds.
@@ -131,15 +132,15 @@ class DriveSubsystem : public frc2::SubsystemBase {
    */
   void ResetOdometry(frc::Pose2d pose);
 
- private:
+private:
   // Components (e.g. motor controllers and sensors) should generally be
   // declared private and exposed only through public methods.
 
   // The motor controllers
-  rev::CANSparkMax {m_frontLeft};
-  rev::CANSparkMax {m_rearLeft};
-  rev::CANSparkMax {m_frontRight};
-  rev::CANSparkMax {m_rearRight};
+  rev::CANSparkMax m_frontLeft{kFrontLeftMotorPort, rev::CANSparkMax::MotorType::kBrushless};
+  rev::CANSparkMax m_rearLeft{kRearLeftMotorPort, rev::CANSparkMax::MotorType::kBrushless};
+  rev::CANSparkMax m_frontRight{kFrontRightMotorPort, rev::CANSparkMax::MotorType::kBrushless};
+  rev::CANSparkMax m_rearRight{kRearRightMotorPort, rev::CANSparkMax::MotorType::kBrushless};
 
   // The robot's drive
   frc::MecanumDrive m_drive{m_frontLeft, m_rearLeft, m_frontRight, m_rearRight};
