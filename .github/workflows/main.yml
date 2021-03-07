@@ -7,6 +7,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2-beta
     - name: FRC Build & Test
-      uses: matgenius04/FRC-actions@v1
+      uses: matgenius04/FRC-actions@v0.1-alpha
       with:
         build_mode: 'all'
