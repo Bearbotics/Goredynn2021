@@ -4,9 +4,7 @@
 
 #pragma once
 
-#include <frc/ADXRS450_Gyro.h>
 #include <frc/Encoder.h>
-#include <frc/PWMVictorSPX.h>
 #include <frc/drive/MecanumDrive.h>
 #include <frc/geometry/Pose2d.h>
 #include <frc/geometry/Rotation2d.h>
@@ -15,6 +13,8 @@
 #include <frc/kinematics/MecanumDriveWheelSpeeds.h>
 #include <frc2/command/SubsystemBase.h>
 #include "rev/CANSparkMax.h"
+#include "rev/CANEncoder.h"
+#include "ctre/phoenix/sensors/PigeonIMU.h"
 
 #include "Constants.h"
 
@@ -53,28 +53,28 @@ public:
    *
    * @return the front left drive encoder
    */
-  frc::Encoder &GetFrontLeftEncoder();
+  rev::CANEncoder &GetFrontLeftEncoder();
 
   /**
    * Gets the rear left drive encoder.
    *
    * @return the rear left drive encoder
    */
-  frc::Encoder &GetRearLeftEncoder();
+  rev::CANEncoder &GetRearLeftEncoder();
 
   /**
    * Gets the front right drive encoder.
    *
    * @return the front right drive encoder
    */
-  frc::Encoder &GetFrontRightEncoder();
+  rev::CANEncoder &GetFrontRightEncoder();
 
   /**
    * Gets the rear right drive encoder.
    *
    * @return the rear right drive encoder
    */
-  frc::Encoder &GetRearRightEncoder();
+  rev::CANEncoder &GetRearRightEncoder();
 
   /**
    * Gets the wheel speeds.
@@ -82,6 +82,13 @@ public:
    * @return the current wheel speeds.
    */
   frc::MecanumDriveWheelSpeeds getCurrentWheelSpeeds();
+
+  /**
+   * Converts the pigeon IMU's rotation to type frc::Rotation2d
+   * 
+   * @return the a 2d rotation object.
+   */
+  frc::Rotation2d DriveSubsystem::GetPigeonRotation2d();
 
   /**
    * Sets the drive SpeedControllers to a desired voltage.
@@ -138,27 +145,30 @@ private:
 
   // The motor controllers
   rev::CANSparkMax m_frontLeft;
+  // The motor controllers
   rev::CANSparkMax m_rearLeft;
+  // The motor controllers
   rev::CANSparkMax m_frontRight;
+  // The motor controllers
   rev::CANSparkMax m_rearRight;
 
   // The robot's drive
   frc::MecanumDrive m_drive{m_frontLeft, m_rearLeft, m_frontRight, m_rearRight};
 
   // The front-left-side drive encoder
-  frc::Encoder m_frontLeftEncoder;
+  rev::CANEncoder m_frontLeftEncoder;
 
   // The rear-left-side drive encoder
-  frc::Encoder m_rearLeftEncoder;
+  rev::CANEncoder m_rearLeftEncoder;
 
   // The front-right--side drive encoder
-  frc::Encoder m_frontRightEncoder;
+  rev::CANEncoder m_frontRightEncoder;
 
   // The rear-right-side drive encoder
-  frc::Encoder m_rearRightEncoder;
+  rev::CANEncoder m_rearRightEncoder;
 
-  // The gyro sensor; TODO: switchout for pigeon imu
-  frc::ADXRS450_Gyro m_gyro;
+  // The gyro sensor; 
+  ctre::phoenix::sensors::PigeonIMU m_gyro;
 
   // Odometry class for tracking robot pose
   frc::MecanumDriveOdometry m_odometry;

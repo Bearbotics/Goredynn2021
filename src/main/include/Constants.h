@@ -31,10 +31,13 @@ constexpr int kRearLeftMotorPort = 4;
 constexpr int kFrontRightMotorPort = 1;
 constexpr int kRearRightMotorPort = 3;
 
-constexpr int kFrontLeftEncoderPorts[]{0, 1};
-constexpr int kRearLeftEncoderPorts[]{2, 3};
-constexpr int kFrontRightEncoderPorts[]{4, 5};
-constexpr int kRearRightEncoderPorts[]{5, 6};
+// TODO: Change
+constexpr int kPigeonIMUPort = 0;
+
+// constexpr int kFrontLeftEncoderPorts[]{0, 1};
+// constexpr int kRearLeftEncoderPorts[]{2, 3};
+// constexpr int kFrontRightEncoderPorts[]{4, 5};
+// constexpr int kRearRightEncoderPorts[]{5, 6};
 
 constexpr bool kFrontLeftEncoderReversed = false;
 constexpr bool kRearLeftEncoderReversed = true;

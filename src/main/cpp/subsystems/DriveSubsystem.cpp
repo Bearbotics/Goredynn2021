@@ -18,17 +18,14 @@ DriveSubsystem::DriveSubsystem()
       m_frontRight{kFrontRightMotorPort,rev::CANSparkMax::MotorType::kBrushless},
       m_rearRight{kRearRightMotorPort,rev::CANSparkMax::MotorType::kBrushless},
 
-      m_frontLeftEncoder{kFrontLeftEncoderPorts[0], kFrontLeftEncoderPorts[1],
-                         kFrontLeftEncoderReversed},
-      m_rearLeftEncoder{kRearLeftEncoderPorts[0], kRearLeftEncoderPorts[1],
-                        kRearLeftEncoderReversed},
-      m_frontRightEncoder{kFrontRightEncoderPorts[0],
-                          kFrontRightEncoderPorts[1],
-                          kFrontRightEncoderReversed},
-      m_rearRightEncoder{kRearRightEncoderPorts[0], kRearRightEncoderPorts[1],
-                         kRearRightEncoderReversed},
+      m_frontLeftEncoder{m_frontLeft,rev::CANEncoder::EncoderType::kHallSensor},
+      m_rearLeftEncoder{m_rearLeft,rev::CANEncoder::EncoderType::kHallSensor},
+      m_frontRightEncoder{m_frontRight,rev::CANEncoder::EncoderType::kHallSensor},
+      m_rearRightEncoder{m_rearRight,rev::CANEncoder::EncoderType::kHallSensor},
+      
+      m_gyro{kPigeonIMUPort},
 
-      m_odometry{kDriveKinematics, m_gyro.GetRotation2d(), frc::Pose2d()} {
+      m_odometry{kDriveKinematics, m_gyro., frc::Pose2d()} {
   // Set the distance per pulse for the encoders
   m_frontLeftEncoder.SetDistancePerPulse(kEncoderDistancePerPulse);
   m_rearLeftEncoder.SetDistancePerPulse(kEncoderDistancePerPulse);
@@ -66,6 +63,7 @@ void DriveSubsystem::SetSpeedControllersVolts(units::volt_t frontLeftPower,
   m_rearRight.SetVoltage(rearRightPower);
 }
 
+// don't know if this function is needed or not
 void DriveSubsystem::ResetEncoders() {
   m_frontLeftEncoder.Reset();
   m_rearLeftEncoder.Reset();
@@ -101,8 +99,14 @@ void DriveSubsystem::SetMaxOutput(double maxOutput) {
   m_drive.SetMaxOutput(maxOutput);
 }
 
-units::degree_t DriveSubsystem::GetHeading() const {
-  return m_gyro.GetRotation2d().Degrees();
+// Still not certain about this function...
+frc::Rotation2d DriveSubsystem::GetPigeonRotation2d() {
+  // also this is almost certainly incorrect
+  return frc::Rotation2d(units::degree_t(m_gyro.GetAbsoluteCompassHeading()));
+}
+
+units::degree_t DriveSubsystem::GetHeading() {
+  return DriveSubsystem::GetPigeonRotation2d().Degrees();
 }
 
 void DriveSubsystem::ZeroHeading() {
