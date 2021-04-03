@@ -73,15 +73,15 @@ class Robot : public frc::TimedRobot {
         // Get Network Table that will be dynamically updated
         .GetEntry();
     nt::NetworkTableEntry escalatorSpeed_ = frc::Shuffleboard::GetTab(tabName)
-        .AddPersistent("Intake Motor", 0.0)
+        .AddPersistent("Escalator Motor", 0.0)
         .WithWidget(frc::BuiltInWidgets::kSpeedController)
         .GetEntry();
     nt::NetworkTableEntry feederSpeed_ = frc::Shuffleboard::GetTab(tabName)
-        .AddPersistent("Intake Motor", 0.0)
+        .AddPersistent("Feeder Motor", 0.0)
         .WithWidget(frc::BuiltInWidgets::kSpeedController)
         .GetEntry();
     nt::NetworkTableEntry shooterSpeed_ = frc::Shuffleboard::GetTab(tabName)
-        .AddPersistent("Intake Motor", 0.0)
+        .AddPersistent("Shooter Motor", 0.0)
         .WithWidget(frc::BuiltInWidgets::kSpeedController)
         .GetEntry();
     
