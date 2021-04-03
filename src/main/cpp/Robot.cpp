@@ -2,71 +2,63 @@
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
 
+
+// Include header file
 #include "Robot.h"
 
-#include <frc/smartdashboard/SmartDashboard.h>
-#include <frc2/command/CommandScheduler.h>
 
 void Robot::RobotInit() {}
+void Robot::RobotPeriodic() {}
 
-/**
- * This function is called every robot packet, no matter the mode. Use
- * this for items like diagnostics that you want to run during disabled,
- * autonomous, teleoperated and test.
- *
- * <p> This runs after the mode specific periodic functions, but before
- * LiveWindow and SmartDashboard integrated updating.
- */
-void Robot::RobotPeriodic() {
-  frc2::CommandScheduler::GetInstance().Run();
-}
-
-/**
- * This function is called once each time the robot enters Disabled mode. You
- * can use it to reset any subsystem information you want to clear when the
- * robot is disabled.
- */
-void Robot::DisabledInit() {}
-
-void Robot::DisabledPeriodic() {}
-
-/**
- * This autonomous runs the autonomous command selected by your {@link
- * RobotContainer} class.
- */
-void Robot::AutonomousInit() {
-  m_autonomousCommand = m_container.GetAutonomousCommand();
-
-  if (m_autonomousCommand != nullptr) {
-    m_autonomousCommand->Schedule();
-  }
-}
-
+void Robot::AutonomousInit() {}
 void Robot::AutonomousPeriodic() {}
 
-void Robot::TeleopInit() {
-  // This makes sure that the autonomous stops running when
-  // teleop starts running. If you want the autonomous to
-  // continue until interrupted by another command, remove
-  // this line or comment it out.
-  if (m_autonomousCommand != nullptr) {
-    m_autonomousCommand->Cancel();
-    m_autonomousCommand = nullptr;
-  }
+void Robot::TeleopInit() {}
+void Robot::TeleopPeriodic()
+{
+  //define variable for absolute heading from pigegon
+  double gyroAngle = pigeon_.GetAbsoluteCompassHeading();
+  
+  // not certain about these controls
+  // and whether field-oriented drive is a good idea or not?
+  // mecanumDrive_.DriveCartesian(pow(firstJoystick_.GetX(),3)*-1, pow(firstJoystick_.GetY(),3),pow(secondJoystick_.GetX(),3) * .7, gyroAngle);
+  // Strafing is reversed for x-axis above soooooooo.......
+  
+  //construct mecanum drive with inputs from the 2 joysticks & gyroangle for
+  //field oreiented control
+  mecanumDrive_.DriveCartesian(
+    pow(firstJoystick_.GetX() , 3)      , 
+    pow(firstJoystick_.GetY() , 3)      , 
+    pow(secondJoystick_.GetX(), 3) * .7 , 
+    gyroAngle
+  );
+  
+  // Starts both shooter motors when sideButton is pressed
+  firstJoystick_.GetRawButton(sideButton)                   // condition for if/else
+  ? shooterMotors_.Set(shooterSpeed_.GetDouble(0.25))        // runs if condition is true
+  : shooterMotors_.Set(shooterSpeed_.GetDouble(0.0));       // runs condition is else (if not true)
+
+  // activates the feeder when trigger button is pressed
+  // this checks if the trigger button is held down
+  firstJoystick_.GetRawButton(triggerButton)                // condition for if/else
+  ? feederMotor_.Set(feederSpeed_.GetDouble(0.5))           //what runs if true
+  : feederMotor_.Set(feederSpeed_.GetDouble(0.0));          //what runs if else (not true)
 }
 
-/**
- * This function is called periodically during operator control.
- */
-void Robot::TeleopPeriodic() {}
+void Robot::DisabledInit() {}
+void Robot::DisabledPeriodic() {}
 
-/**
- * This function is called periodically during test mode.
- */
-void Robot::TestPeriodic() {}
+void Robot::TestInit() {}
+void Robot::TestPeriodic() 
+{
+  // just run teleop, because the built in widget
+  // kSpeedController should be editable only in test mode
+  TeleopPeriodic();
+}
 
 #ifndef RUNNING_FRC_TESTS
-int main() {
+int main()
+{
   return frc::StartRobot<Robot>();
 }
 #endif
