@@ -1,0 +1,14 @@
+Axis [0] - Left Joystick 
+    Left    -1
+    Right   +1
+Axis [1] - Left Joystick
+    Up      -1
+    Down    +1
+
+
+Axis [2] - Right Joystick
+    Left    -1
+    Right   +1
+Axis [5] - Right Joystick
+    Up      -1
+    Down    +1
