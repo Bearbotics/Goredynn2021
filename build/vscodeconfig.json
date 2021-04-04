@@ -5,8 +5,8 @@
     "operatingSystem": "linux",
     "flavor": "default",
     "buildType": "debug",
-    "cppPath": "/Users/mchen23/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-g++",
-    "cPath": "/Users/mchen23/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-gcc",
+    "cppPath": "C:\\Users\\Public\\wpilib\\2021\\roborio\\bin\\arm-frc2021-linux-gnueabi-g++.exe",
+    "cPath": "C:\\Users\\Public\\wpilib\\2021\\roborio\\bin\\arm-frc2021-linux-gnueabi-gcc.exe",
     "msvc": false,
     "gcc": true,
     "systemCppMacros": [],
@@ -14,82 +14,82 @@
     "systemCMacros": [],
     "systemCArgs": [],
     "allLibFiles": [
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/8e021792cf52940f3e4516f0f9ec9151/wpiapi-cpp-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/9c1f9da7b152011b5644ede3cc141720/api-cpp-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a09481d44a6649547e34a6f2216013c5/cci-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/df57a3fa3a7c59ab6f35a0def76877f3/cci-sim-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e8b1647782d1688a86e517e16f6fc37a/diagnostics-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/12451a63d226ec369a09c16377f00dc9/canutils-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/50b0e9f53407f1f2a527c53319fa6fcb/platform-sim-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/49bfecac44853bb3f09a859e17d0df9b/core-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/757c3720ca5856b9876afd6731b75971/simTalonSRX-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e78ca4fcd570bb03fc08d5a5a5387575/simVictorSPX-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d7d1d370b369065df7ef88e57c99943f/wpilibOldCommands-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e5edcf3b2d27f119fef38f9178ae8900/SparkMax-cpp-1.5.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/74a7b335802d9f6c22b2919eed6da83d/SparkMax-driver-1.5.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/66da4f338692e92bb9754365bdc5545c/wpilibNewCommands-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/5a29e5d17a5cded39baa8fdeaf1b1634/wpilibc-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/930e5dc6449b57091adf181886e26e6f/ntcore-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/0ddb1448f3d4b42b81084ec4312f0d00/hal-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bfeebbbafc578d2f20444f7b77287735/wpiutil-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/83f1b56f0b614a61803a957bca78ec41/wpimath-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/dcfba842a300372a527715e745a08e26/chipobject-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ad83325de6d5ed07e515be97b19cdd4f/netcomm-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/efda960928b03e7835b055bc4f4711ed/visa-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/acf7d51c7774c4f305f5e89c259e0070/cameraserver-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/cae1b9ac95cb81c6f73ac529221e2f48/cscore-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4969a6d1c32fb429cb06ca1dedbf7e46/opencv-cpp-3.4.7-5-headers/",
-      "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d9b8bfa520ce5df993affd0bc7acd32f/wpilibOldCommands-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/f2142ee8ee80b80e1b73cdaa07fe329f/wpilibNewCommands-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/6735afb23cd3559a911304ad98df23c6/wpilibc-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a103f42e6f639912992549862edcab5c/ntcore-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ba12bf3faf5d72cc6d7800374532986a/hal-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e29fb810d83e38b580ffbefbe1e33468/wpiutil-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bac483accf3723651f95d86c40f3ca97/wpimath-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/62fce16b7bc237fb30b6611ac6060e58/cameraserver-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/b487336ca49f7a47a63915c72b0fafcd/cscore-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4bc92283b641089133ddcb35841d513d/opencv-cpp-3.4.7-5-sources/"
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\4b6192c384cf8473a9d086e6adb4b937\\chipobject-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cd1da3a238ebc04371ef638a62a8c4a8\\netcomm-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cca00724dbd9d228d2bdefb7d7faaa8d\\visa-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+      "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e764af5ac7abbbef1c495dae8fd47e9a\\wpilibNewCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\77c10fbf5b517696ca88c41d46fac5e6\\wpilibOldCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3495373fc504c8388755623dc609edcf\\wpilibc-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\80dce929aed7e0f534c3b63926066ef1\\ntcore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0023b6ce4058b2179120b2688ce4c77\\hal-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\99643422683ac4807dd9fd11a31680d4\\wpiutil-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6599903d5894fbba7c0aa7bece0aff2\\wpimath-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6f8e4f981c73f01c226c0ed1042eaf0a\\cameraserver-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e7a7262d0ba55bfbeddf64ae5ed01c8e\\cscore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c16b0dc01f031b98b7869bbe788c74e4\\opencv-cpp-3.4.7-5-sources\\"
     ],
     "allLibSources": [
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d9b8bfa520ce5df993affd0bc7acd32f/wpilibOldCommands-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/f2142ee8ee80b80e1b73cdaa07fe329f/wpilibNewCommands-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/6735afb23cd3559a911304ad98df23c6/wpilibc-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a103f42e6f639912992549862edcab5c/ntcore-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ba12bf3faf5d72cc6d7800374532986a/hal-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e29fb810d83e38b580ffbefbe1e33468/wpiutil-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bac483accf3723651f95d86c40f3ca97/wpimath-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/62fce16b7bc237fb30b6611ac6060e58/cameraserver-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/b487336ca49f7a47a63915c72b0fafcd/cscore-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4bc92283b641089133ddcb35841d513d/opencv-cpp-3.4.7-5-sources/"
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e764af5ac7abbbef1c495dae8fd47e9a\\wpilibNewCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\77c10fbf5b517696ca88c41d46fac5e6\\wpilibOldCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3495373fc504c8388755623dc609edcf\\wpilibc-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\80dce929aed7e0f534c3b63926066ef1\\ntcore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0023b6ce4058b2179120b2688ce4c77\\hal-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\99643422683ac4807dd9fd11a31680d4\\wpiutil-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6599903d5894fbba7c0aa7bece0aff2\\wpimath-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6f8e4f981c73f01c226c0ed1042eaf0a\\cameraserver-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e7a7262d0ba55bfbeddf64ae5ed01c8e\\cscore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c16b0dc01f031b98b7869bbe788c74e4\\opencv-cpp-3.4.7-5-sources\\"
     ],
     "allLibHeaders": [
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/8e021792cf52940f3e4516f0f9ec9151/wpiapi-cpp-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/9c1f9da7b152011b5644ede3cc141720/api-cpp-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a09481d44a6649547e34a6f2216013c5/cci-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/df57a3fa3a7c59ab6f35a0def76877f3/cci-sim-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e8b1647782d1688a86e517e16f6fc37a/diagnostics-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/12451a63d226ec369a09c16377f00dc9/canutils-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/50b0e9f53407f1f2a527c53319fa6fcb/platform-sim-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/49bfecac44853bb3f09a859e17d0df9b/core-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/757c3720ca5856b9876afd6731b75971/simTalonSRX-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e78ca4fcd570bb03fc08d5a5a5387575/simVictorSPX-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d7d1d370b369065df7ef88e57c99943f/wpilibOldCommands-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e5edcf3b2d27f119fef38f9178ae8900/SparkMax-cpp-1.5.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/74a7b335802d9f6c22b2919eed6da83d/SparkMax-driver-1.5.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/66da4f338692e92bb9754365bdc5545c/wpilibNewCommands-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/5a29e5d17a5cded39baa8fdeaf1b1634/wpilibc-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/930e5dc6449b57091adf181886e26e6f/ntcore-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/0ddb1448f3d4b42b81084ec4312f0d00/hal-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bfeebbbafc578d2f20444f7b77287735/wpiutil-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/83f1b56f0b614a61803a957bca78ec41/wpimath-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/dcfba842a300372a527715e745a08e26/chipobject-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ad83325de6d5ed07e515be97b19cdd4f/netcomm-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/efda960928b03e7835b055bc4f4711ed/visa-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/acf7d51c7774c4f305f5e89c259e0070/cameraserver-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/cae1b9ac95cb81c6f73ac529221e2f48/cscore-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4969a6d1c32fb429cb06ca1dedbf7e46/opencv-cpp-3.4.7-5-headers/",
-      "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/"
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\4b6192c384cf8473a9d086e6adb4b937\\chipobject-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cd1da3a238ebc04371ef638a62a8c4a8\\netcomm-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cca00724dbd9d228d2bdefb7d7faaa8d\\visa-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+      "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
     ],
     "binaries": [
       {
@@ -98,7 +98,7 @@
           {
             "source": {
               "srcDirs": [
-                "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/cpp/"
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
               ],
               "includes": [
                 "**/*.cpp",
@@ -108,7 +108,7 @@
             },
             "exportedHeaders": {
               "srcDirs": [
-                "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/"
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
               ],
               "includes": [
                 "**/*.cpp",
@@ -136,32 +136,32 @@
           }
         ],
         "libHeaders": [
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/8e021792cf52940f3e4516f0f9ec9151/wpiapi-cpp-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/9c1f9da7b152011b5644ede3cc141720/api-cpp-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a09481d44a6649547e34a6f2216013c5/cci-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/df57a3fa3a7c59ab6f35a0def76877f3/cci-sim-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e8b1647782d1688a86e517e16f6fc37a/diagnostics-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/12451a63d226ec369a09c16377f00dc9/canutils-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/50b0e9f53407f1f2a527c53319fa6fcb/platform-sim-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/49bfecac44853bb3f09a859e17d0df9b/core-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/757c3720ca5856b9876afd6731b75971/simTalonSRX-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e78ca4fcd570bb03fc08d5a5a5387575/simVictorSPX-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d7d1d370b369065df7ef88e57c99943f/wpilibOldCommands-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e5edcf3b2d27f119fef38f9178ae8900/SparkMax-cpp-1.5.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/74a7b335802d9f6c22b2919eed6da83d/SparkMax-driver-1.5.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/66da4f338692e92bb9754365bdc5545c/wpilibNewCommands-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/5a29e5d17a5cded39baa8fdeaf1b1634/wpilibc-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/930e5dc6449b57091adf181886e26e6f/ntcore-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/0ddb1448f3d4b42b81084ec4312f0d00/hal-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bfeebbbafc578d2f20444f7b77287735/wpiutil-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/83f1b56f0b614a61803a957bca78ec41/wpimath-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/dcfba842a300372a527715e745a08e26/chipobject-2020.10.1-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ad83325de6d5ed07e515be97b19cdd4f/netcomm-2020.10.1-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/efda960928b03e7835b055bc4f4711ed/visa-2020.10.1-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/acf7d51c7774c4f305f5e89c259e0070/cameraserver-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/cae1b9ac95cb81c6f73ac529221e2f48/cscore-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4969a6d1c32fb429cb06ca1dedbf7e46/opencv-cpp-3.4.7-5-headers/",
-          "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/"
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\4b6192c384cf8473a9d086e6adb4b937\\chipobject-2020.10.1-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cd1da3a238ebc04371ef638a62a8c4a8\\netcomm-2020.10.1-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cca00724dbd9d228d2bdefb7d7faaa8d\\visa-2020.10.1-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+          "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
         ],
         "sharedLibrary": false,
         "executable": true
@@ -171,7 +171,7 @@
       {
         "source": {
           "srcDirs": [
-            "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/cpp/"
+            "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
           ],
           "includes": [
             "**/*.cpp",
@@ -203,7 +203,7 @@
       {
         "source": {
           "srcDirs": [
-            "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/"
+            "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
           ],
           "includes": [
             "**/*.cpp",
@@ -243,8 +243,8 @@
     "operatingSystem": "linux",
     "flavor": "default",
     "buildType": "release",
-    "cppPath": "/Users/mchen23/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-g++",
-    "cPath": "/Users/mchen23/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-gcc",
+    "cppPath": "C:\\Users\\Public\\wpilib\\2021\\roborio\\bin\\arm-frc2021-linux-gnueabi-g++.exe",
+    "cPath": "C:\\Users\\Public\\wpilib\\2021\\roborio\\bin\\arm-frc2021-linux-gnueabi-gcc.exe",
     "msvc": false,
     "gcc": true,
     "systemCppMacros": [],
@@ -252,82 +252,82 @@
     "systemCMacros": [],
     "systemCArgs": [],
     "allLibFiles": [
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/8e021792cf52940f3e4516f0f9ec9151/wpiapi-cpp-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/9c1f9da7b152011b5644ede3cc141720/api-cpp-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a09481d44a6649547e34a6f2216013c5/cci-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/df57a3fa3a7c59ab6f35a0def76877f3/cci-sim-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e8b1647782d1688a86e517e16f6fc37a/diagnostics-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/12451a63d226ec369a09c16377f00dc9/canutils-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/50b0e9f53407f1f2a527c53319fa6fcb/platform-sim-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/49bfecac44853bb3f09a859e17d0df9b/core-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/757c3720ca5856b9876afd6731b75971/simTalonSRX-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e78ca4fcd570bb03fc08d5a5a5387575/simVictorSPX-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d7d1d370b369065df7ef88e57c99943f/wpilibOldCommands-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e5edcf3b2d27f119fef38f9178ae8900/SparkMax-cpp-1.5.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/74a7b335802d9f6c22b2919eed6da83d/SparkMax-driver-1.5.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/66da4f338692e92bb9754365bdc5545c/wpilibNewCommands-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/5a29e5d17a5cded39baa8fdeaf1b1634/wpilibc-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/930e5dc6449b57091adf181886e26e6f/ntcore-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/0ddb1448f3d4b42b81084ec4312f0d00/hal-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bfeebbbafc578d2f20444f7b77287735/wpiutil-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/83f1b56f0b614a61803a957bca78ec41/wpimath-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/dcfba842a300372a527715e745a08e26/chipobject-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ad83325de6d5ed07e515be97b19cdd4f/netcomm-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/efda960928b03e7835b055bc4f4711ed/visa-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/acf7d51c7774c4f305f5e89c259e0070/cameraserver-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/cae1b9ac95cb81c6f73ac529221e2f48/cscore-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4969a6d1c32fb429cb06ca1dedbf7e46/opencv-cpp-3.4.7-5-headers/",
-      "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d9b8bfa520ce5df993affd0bc7acd32f/wpilibOldCommands-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/f2142ee8ee80b80e1b73cdaa07fe329f/wpilibNewCommands-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/6735afb23cd3559a911304ad98df23c6/wpilibc-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a103f42e6f639912992549862edcab5c/ntcore-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ba12bf3faf5d72cc6d7800374532986a/hal-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e29fb810d83e38b580ffbefbe1e33468/wpiutil-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bac483accf3723651f95d86c40f3ca97/wpimath-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/62fce16b7bc237fb30b6611ac6060e58/cameraserver-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/b487336ca49f7a47a63915c72b0fafcd/cscore-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4bc92283b641089133ddcb35841d513d/opencv-cpp-3.4.7-5-sources/"
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\4b6192c384cf8473a9d086e6adb4b937\\chipobject-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cd1da3a238ebc04371ef638a62a8c4a8\\netcomm-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cca00724dbd9d228d2bdefb7d7faaa8d\\visa-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+      "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e764af5ac7abbbef1c495dae8fd47e9a\\wpilibNewCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\77c10fbf5b517696ca88c41d46fac5e6\\wpilibOldCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3495373fc504c8388755623dc609edcf\\wpilibc-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\80dce929aed7e0f534c3b63926066ef1\\ntcore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0023b6ce4058b2179120b2688ce4c77\\hal-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\99643422683ac4807dd9fd11a31680d4\\wpiutil-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6599903d5894fbba7c0aa7bece0aff2\\wpimath-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6f8e4f981c73f01c226c0ed1042eaf0a\\cameraserver-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e7a7262d0ba55bfbeddf64ae5ed01c8e\\cscore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c16b0dc01f031b98b7869bbe788c74e4\\opencv-cpp-3.4.7-5-sources\\"
     ],
     "allLibSources": [
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d9b8bfa520ce5df993affd0bc7acd32f/wpilibOldCommands-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/f2142ee8ee80b80e1b73cdaa07fe329f/wpilibNewCommands-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/6735afb23cd3559a911304ad98df23c6/wpilibc-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a103f42e6f639912992549862edcab5c/ntcore-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ba12bf3faf5d72cc6d7800374532986a/hal-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e29fb810d83e38b580ffbefbe1e33468/wpiutil-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bac483accf3723651f95d86c40f3ca97/wpimath-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/62fce16b7bc237fb30b6611ac6060e58/cameraserver-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/b487336ca49f7a47a63915c72b0fafcd/cscore-cpp-2021.2.2-sources/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4bc92283b641089133ddcb35841d513d/opencv-cpp-3.4.7-5-sources/"
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e764af5ac7abbbef1c495dae8fd47e9a\\wpilibNewCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\77c10fbf5b517696ca88c41d46fac5e6\\wpilibOldCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3495373fc504c8388755623dc609edcf\\wpilibc-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\80dce929aed7e0f534c3b63926066ef1\\ntcore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0023b6ce4058b2179120b2688ce4c77\\hal-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\99643422683ac4807dd9fd11a31680d4\\wpiutil-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6599903d5894fbba7c0aa7bece0aff2\\wpimath-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6f8e4f981c73f01c226c0ed1042eaf0a\\cameraserver-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e7a7262d0ba55bfbeddf64ae5ed01c8e\\cscore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c16b0dc01f031b98b7869bbe788c74e4\\opencv-cpp-3.4.7-5-sources\\"
     ],
     "allLibHeaders": [
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/8e021792cf52940f3e4516f0f9ec9151/wpiapi-cpp-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/9c1f9da7b152011b5644ede3cc141720/api-cpp-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a09481d44a6649547e34a6f2216013c5/cci-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/df57a3fa3a7c59ab6f35a0def76877f3/cci-sim-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e8b1647782d1688a86e517e16f6fc37a/diagnostics-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/12451a63d226ec369a09c16377f00dc9/canutils-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/50b0e9f53407f1f2a527c53319fa6fcb/platform-sim-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/49bfecac44853bb3f09a859e17d0df9b/core-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/757c3720ca5856b9876afd6731b75971/simTalonSRX-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e78ca4fcd570bb03fc08d5a5a5387575/simVictorSPX-5.19.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d7d1d370b369065df7ef88e57c99943f/wpilibOldCommands-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e5edcf3b2d27f119fef38f9178ae8900/SparkMax-cpp-1.5.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/74a7b335802d9f6c22b2919eed6da83d/SparkMax-driver-1.5.4-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/66da4f338692e92bb9754365bdc5545c/wpilibNewCommands-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/5a29e5d17a5cded39baa8fdeaf1b1634/wpilibc-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/930e5dc6449b57091adf181886e26e6f/ntcore-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/0ddb1448f3d4b42b81084ec4312f0d00/hal-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bfeebbbafc578d2f20444f7b77287735/wpiutil-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/83f1b56f0b614a61803a957bca78ec41/wpimath-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/dcfba842a300372a527715e745a08e26/chipobject-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ad83325de6d5ed07e515be97b19cdd4f/netcomm-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/efda960928b03e7835b055bc4f4711ed/visa-2020.10.1-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/acf7d51c7774c4f305f5e89c259e0070/cameraserver-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/cae1b9ac95cb81c6f73ac529221e2f48/cscore-cpp-2021.2.2-headers/",
-      "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4969a6d1c32fb429cb06ca1dedbf7e46/opencv-cpp-3.4.7-5-headers/",
-      "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/"
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\4b6192c384cf8473a9d086e6adb4b937\\chipobject-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cd1da3a238ebc04371ef638a62a8c4a8\\netcomm-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cca00724dbd9d228d2bdefb7d7faaa8d\\visa-2020.10.1-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+      "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
     ],
     "binaries": [
       {
@@ -336,7 +336,7 @@
           {
             "source": {
               "srcDirs": [
-                "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/cpp/"
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
               ],
               "includes": [
                 "**/*.cpp",
@@ -346,7 +346,7 @@
             },
             "exportedHeaders": {
               "srcDirs": [
-                "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/"
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
               ],
               "includes": [
                 "**/*.cpp",
@@ -373,32 +373,32 @@
           }
         ],
         "libHeaders": [
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/8e021792cf52940f3e4516f0f9ec9151/wpiapi-cpp-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/9c1f9da7b152011b5644ede3cc141720/api-cpp-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/a09481d44a6649547e34a6f2216013c5/cci-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/df57a3fa3a7c59ab6f35a0def76877f3/cci-sim-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e8b1647782d1688a86e517e16f6fc37a/diagnostics-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/12451a63d226ec369a09c16377f00dc9/canutils-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/50b0e9f53407f1f2a527c53319fa6fcb/platform-sim-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/49bfecac44853bb3f09a859e17d0df9b/core-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/757c3720ca5856b9876afd6731b75971/simTalonSRX-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e78ca4fcd570bb03fc08d5a5a5387575/simVictorSPX-5.19.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/d7d1d370b369065df7ef88e57c99943f/wpilibOldCommands-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/e5edcf3b2d27f119fef38f9178ae8900/SparkMax-cpp-1.5.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/74a7b335802d9f6c22b2919eed6da83d/SparkMax-driver-1.5.4-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/66da4f338692e92bb9754365bdc5545c/wpilibNewCommands-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/5a29e5d17a5cded39baa8fdeaf1b1634/wpilibc-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/930e5dc6449b57091adf181886e26e6f/ntcore-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/0ddb1448f3d4b42b81084ec4312f0d00/hal-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/bfeebbbafc578d2f20444f7b77287735/wpiutil-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/83f1b56f0b614a61803a957bca78ec41/wpimath-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/dcfba842a300372a527715e745a08e26/chipobject-2020.10.1-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/ad83325de6d5ed07e515be97b19cdd4f/netcomm-2020.10.1-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/efda960928b03e7835b055bc4f4711ed/visa-2020.10.1-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/acf7d51c7774c4f305f5e89c259e0070/cameraserver-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/cae1b9ac95cb81c6f73ac529221e2f48/cscore-cpp-2021.2.2-headers/",
-          "/Users/mchen23/.gradle/caches/transforms-2/files-2.1/4969a6d1c32fb429cb06ca1dedbf7e46/opencv-cpp-3.4.7-5-headers/",
-          "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/"
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\4b6192c384cf8473a9d086e6adb4b937\\chipobject-2020.10.1-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cd1da3a238ebc04371ef638a62a8c4a8\\netcomm-2020.10.1-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\cca00724dbd9d228d2bdefb7d7faaa8d\\visa-2020.10.1-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+          "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
         ],
         "sharedLibrary": false,
         "executable": true
@@ -408,7 +408,7 @@
       {
         "source": {
           "srcDirs": [
-            "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/cpp/"
+            "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
           ],
           "includes": [
             "**/*.cpp",
@@ -439,7 +439,7 @@
       {
         "source": {
           "srcDirs": [
-            "/Users/mchen23/Documents/GitHub/no-crazy-wrappers/src/main/include/"
+            "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
           ],
           "includes": [
             "**/*.cpp",
@@ -470,6 +470,875 @@
     ],
     "nameBinaryMap": {
       "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "windowsx86-64",
+    "architecture": "x86-64",
+    "operatingSystem": "Windows 10",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "B:\\Program Files (x86)\\VisualStudio19\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe",
+    "cPath": "B:\\Program Files (x86)\\VisualStudio19\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe",
+    "msvc": true,
+    "gcc": false,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e417ab4f52e46f6b572c0064df12b944\\googletest-1.9.0-5-437e100-1-headers\\",
+      "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e764af5ac7abbbef1c495dae8fd47e9a\\wpilibNewCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\77c10fbf5b517696ca88c41d46fac5e6\\wpilibOldCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3495373fc504c8388755623dc609edcf\\wpilibc-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\80dce929aed7e0f534c3b63926066ef1\\ntcore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0023b6ce4058b2179120b2688ce4c77\\hal-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\99643422683ac4807dd9fd11a31680d4\\wpiutil-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6599903d5894fbba7c0aa7bece0aff2\\wpimath-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6f8e4f981c73f01c226c0ed1042eaf0a\\cameraserver-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e7a7262d0ba55bfbeddf64ae5ed01c8e\\cscore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c16b0dc01f031b98b7869bbe788c74e4\\opencv-cpp-3.4.7-5-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\0dc1dfbe860d827e44c9ec5c1eaa8641\\googletest-1.9.0-5-437e100-1-sources\\"
+    ],
+    "allLibSources": [
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e764af5ac7abbbef1c495dae8fd47e9a\\wpilibNewCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\77c10fbf5b517696ca88c41d46fac5e6\\wpilibOldCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3495373fc504c8388755623dc609edcf\\wpilibc-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\80dce929aed7e0f534c3b63926066ef1\\ntcore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0023b6ce4058b2179120b2688ce4c77\\hal-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\99643422683ac4807dd9fd11a31680d4\\wpiutil-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6599903d5894fbba7c0aa7bece0aff2\\wpimath-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6f8e4f981c73f01c226c0ed1042eaf0a\\cameraserver-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e7a7262d0ba55bfbeddf64ae5ed01c8e\\cscore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c16b0dc01f031b98b7869bbe788c74e4\\opencv-cpp-3.4.7-5-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\0dc1dfbe860d827e44c9ec5c1eaa8641\\googletest-1.9.0-5-437e100-1-sources\\"
+    ],
+    "allLibHeaders": [
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e417ab4f52e46f6b572c0064df12b944\\googletest-1.9.0-5-437e100-1-headers\\",
+      "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgramTest",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\test\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\frcUserProgramTest\\headers\\"
+              ],
+              "includes": [
+                "**/*.cpp"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "/W3",
+              "/EHsc",
+              "/FS",
+              "/Zc:inline",
+              "/wd4244",
+              "/wd4267",
+              "/wd4146",
+              "/wd4996",
+              "/Zc:throwingNew",
+              "/D_CRT_SECURE_NO_WARNINGS",
+              "/std:c++17",
+              "/permissive-",
+              "/bigobj",
+              "/Od",
+              "/MDd",
+              "/Zi"
+            ],
+            "macros": [
+              "RUNNING_FRC_TESTS"
+            ]
+          },
+          {
+            "source": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "/W3",
+              "/EHsc",
+              "/FS",
+              "/Zc:inline",
+              "/wd4244",
+              "/wd4267",
+              "/wd4146",
+              "/wd4996",
+              "/Zc:throwingNew",
+              "/D_CRT_SECURE_NO_WARNINGS",
+              "/std:c++17",
+              "/permissive-",
+              "/bigobj",
+              "/Od",
+              "/MDd",
+              "/Zi"
+            ],
+            "macros": [
+              "RUNNING_FRC_TESTS"
+            ]
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e417ab4f52e46f6b572c0064df12b944\\googletest-1.9.0-5-437e100-1-headers\\",
+          "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "/W3",
+              "/EHsc",
+              "/FS",
+              "/Zc:inline",
+              "/wd4244",
+              "/wd4267",
+              "/wd4146",
+              "/wd4996",
+              "/Zc:throwingNew",
+              "/D_CRT_SECURE_NO_WARNINGS",
+              "/std:c++17",
+              "/permissive-",
+              "/bigobj",
+              "/Od",
+              "/MDd",
+              "/Zi"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+          "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "B:\\Projects\\2021\\Goredynn2021\\src\\test\\cpp\\"
+          ],
+          "includes": [
+            "**/*.cpp"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "/W3",
+          "/EHsc",
+          "/FS",
+          "/Zc:inline",
+          "/wd4244",
+          "/wd4267",
+          "/wd4146",
+          "/wd4996",
+          "/Zc:throwingNew",
+          "/D_CRT_SECURE_NO_WARNINGS",
+          "/std:c++17",
+          "/permissive-",
+          "/bigobj",
+          "/Od",
+          "/MDd",
+          "/Zi"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "B:\\Projects\\2021\\Goredynn2021\\src\\frcUserProgramTest\\headers\\"
+          ],
+          "includes": [
+            "**/*.cpp"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "/W3",
+          "/EHsc",
+          "/FS",
+          "/Zc:inline",
+          "/wd4244",
+          "/wd4267",
+          "/wd4146",
+          "/wd4996",
+          "/Zc:throwingNew",
+          "/D_CRT_SECURE_NO_WARNINGS",
+          "/std:c++17",
+          "/permissive-",
+          "/bigobj",
+          "/Od",
+          "/MDd",
+          "/Zi"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "/W3",
+          "/EHsc",
+          "/FS",
+          "/Zc:inline",
+          "/wd4244",
+          "/wd4267",
+          "/wd4146",
+          "/wd4996",
+          "/Zc:throwingNew",
+          "/D_CRT_SECURE_NO_WARNINGS",
+          "/std:c++17",
+          "/permissive-",
+          "/bigobj",
+          "/Od",
+          "/MDd",
+          "/Zi"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "/W3",
+          "/EHsc",
+          "/FS",
+          "/Zc:inline",
+          "/wd4244",
+          "/wd4267",
+          "/wd4146",
+          "/wd4996",
+          "/Zc:throwingNew",
+          "/D_CRT_SECURE_NO_WARNINGS",
+          "/std:c++17",
+          "/permissive-",
+          "/bigobj",
+          "/Od",
+          "/MDd",
+          "/Zi"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 1,
+      "frcUserProgramTest": 0
+    }
+  },
+  {
+    "name": "windowsx86-64",
+    "architecture": "x86-64",
+    "operatingSystem": "Windows 10",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "B:\\Program Files (x86)\\VisualStudio19\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe",
+    "cPath": "B:\\Program Files (x86)\\VisualStudio19\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe",
+    "msvc": true,
+    "gcc": false,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e417ab4f52e46f6b572c0064df12b944\\googletest-1.9.0-5-437e100-1-headers\\",
+      "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e764af5ac7abbbef1c495dae8fd47e9a\\wpilibNewCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\77c10fbf5b517696ca88c41d46fac5e6\\wpilibOldCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3495373fc504c8388755623dc609edcf\\wpilibc-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\80dce929aed7e0f534c3b63926066ef1\\ntcore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0023b6ce4058b2179120b2688ce4c77\\hal-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\99643422683ac4807dd9fd11a31680d4\\wpiutil-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6599903d5894fbba7c0aa7bece0aff2\\wpimath-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6f8e4f981c73f01c226c0ed1042eaf0a\\cameraserver-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e7a7262d0ba55bfbeddf64ae5ed01c8e\\cscore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c16b0dc01f031b98b7869bbe788c74e4\\opencv-cpp-3.4.7-5-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\0dc1dfbe860d827e44c9ec5c1eaa8641\\googletest-1.9.0-5-437e100-1-sources\\"
+    ],
+    "allLibSources": [
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e764af5ac7abbbef1c495dae8fd47e9a\\wpilibNewCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\77c10fbf5b517696ca88c41d46fac5e6\\wpilibOldCommands-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3495373fc504c8388755623dc609edcf\\wpilibc-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\80dce929aed7e0f534c3b63926066ef1\\ntcore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0023b6ce4058b2179120b2688ce4c77\\hal-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\99643422683ac4807dd9fd11a31680d4\\wpiutil-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6599903d5894fbba7c0aa7bece0aff2\\wpimath-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6f8e4f981c73f01c226c0ed1042eaf0a\\cameraserver-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e7a7262d0ba55bfbeddf64ae5ed01c8e\\cscore-cpp-2021.2.2-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c16b0dc01f031b98b7869bbe788c74e4\\opencv-cpp-3.4.7-5-sources\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\0dc1dfbe860d827e44c9ec5c1eaa8641\\googletest-1.9.0-5-437e100-1-sources\\"
+    ],
+    "allLibHeaders": [
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+      "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e417ab4f52e46f6b572c0064df12b944\\googletest-1.9.0-5-437e100-1-headers\\",
+      "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgramTest",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\test\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\frcUserProgramTest\\headers\\"
+              ],
+              "includes": [
+                "**/*.cpp"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "/W3",
+              "/EHsc",
+              "/FS",
+              "/Zc:inline",
+              "/wd4244",
+              "/wd4267",
+              "/wd4146",
+              "/wd4996",
+              "/Zc:throwingNew",
+              "/D_CRT_SECURE_NO_WARNINGS",
+              "/std:c++17",
+              "/permissive-",
+              "/bigobj",
+              "/O2",
+              "/MD"
+            ],
+            "macros": [
+              "RUNNING_FRC_TESTS"
+            ]
+          },
+          {
+            "source": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "/W3",
+              "/EHsc",
+              "/FS",
+              "/Zc:inline",
+              "/wd4244",
+              "/wd4267",
+              "/wd4146",
+              "/wd4996",
+              "/Zc:throwingNew",
+              "/D_CRT_SECURE_NO_WARNINGS",
+              "/std:c++17",
+              "/permissive-",
+              "/bigobj",
+              "/O2",
+              "/MD"
+            ],
+            "macros": [
+              "RUNNING_FRC_TESTS"
+            ]
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e417ab4f52e46f6b572c0064df12b944\\googletest-1.9.0-5-437e100-1-headers\\",
+          "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "/W3",
+              "/EHsc",
+              "/FS",
+              "/Zc:inline",
+              "/wd4244",
+              "/wd4267",
+              "/wd4146",
+              "/wd4996",
+              "/Zc:throwingNew",
+              "/D_CRT_SECURE_NO_WARNINGS",
+              "/std:c++17",
+              "/permissive-",
+              "/bigobj",
+              "/O2",
+              "/MD"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\88da88240b522bbb7ca6331690f02889\\wpiapi-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\2e8c2b7179e187160ff76b79fc0d9223\\api-cpp-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\70282b0872c889caa0db786939d4df74\\cci-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\20b49635867850908a0248e5a68c8dd9\\cci-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b0d158725a562a8c32218976696e3f81\\diagnostics-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7596617ade1f24998580e278a3e37c6b\\canutils-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\a2ed936538710bc266f687eba8d4aeda\\platform-sim-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\533a1713f59664ac8a47105d7efa9251\\core-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\ee93d72486d49800c9242d5f6399aa3f\\simTalonSRX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\b079e451894c1d4717801082f2ba511b\\simVictorSPX-5.19.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\16a3b888d69d23330f7ecca34eff9395\\SparkMax-cpp-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\7abbb8050ca34a28dc36212a73666a4b\\SparkMax-driver-1.5.4-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\e6e1c316f809f321c5053c032c048d78\\wpilibNewCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\c3fc2eda27851f8d788148baea370dac\\wpilibOldCommands-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f2d1735d5edcacdd7b77d29d3fa553ec\\wpilibc-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\f8e76097671a0a1869c4b82d71610183\\ntcore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\3cf9150ea835b3589ed8f1906bc801fb\\hal-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\60e4e70a8e4e6efc0ff734a66b184dac\\wpiutil-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\6c196128cb7afce9d289da9a4090677f\\wpimath-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\31be756e3cd383623afa2a031bf2ec59\\cameraserver-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\5c363751985ae53e2936ea05187039ff\\cscore-cpp-2021.2.2-headers\\",
+          "C:\\Users\\William\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
+          "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "B:\\Projects\\2021\\Goredynn2021\\src\\test\\cpp\\"
+          ],
+          "includes": [
+            "**/*.cpp"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "/W3",
+          "/EHsc",
+          "/FS",
+          "/Zc:inline",
+          "/wd4244",
+          "/wd4267",
+          "/wd4146",
+          "/wd4996",
+          "/Zc:throwingNew",
+          "/D_CRT_SECURE_NO_WARNINGS",
+          "/std:c++17",
+          "/permissive-",
+          "/bigobj",
+          "/O2",
+          "/MD"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "B:\\Projects\\2021\\Goredynn2021\\src\\frcUserProgramTest\\headers\\"
+          ],
+          "includes": [
+            "**/*.cpp"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "/W3",
+          "/EHsc",
+          "/FS",
+          "/Zc:inline",
+          "/wd4244",
+          "/wd4267",
+          "/wd4146",
+          "/wd4996",
+          "/Zc:throwingNew",
+          "/D_CRT_SECURE_NO_WARNINGS",
+          "/std:c++17",
+          "/permissive-",
+          "/bigobj",
+          "/O2",
+          "/MD"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "B:\\Projects\\2021\\Goredynn2021\\src\\main\\cpp\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "/W3",
+          "/EHsc",
+          "/FS",
+          "/Zc:inline",
+          "/wd4244",
+          "/wd4267",
+          "/wd4146",
+          "/wd4996",
+          "/Zc:throwingNew",
+          "/D_CRT_SECURE_NO_WARNINGS",
+          "/std:c++17",
+          "/permissive-",
+          "/bigobj",
+          "/O2",
+          "/MD"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "B:\\Projects\\2021\\Goredynn2021\\src\\main\\include\\"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgramTest",
+        "cpp": true,
+        "args": [
+          "/W3",
+          "/EHsc",
+          "/FS",
+          "/Zc:inline",
+          "/wd4244",
+          "/wd4267",
+          "/wd4146",
+          "/wd4996",
+          "/Zc:throwingNew",
+          "/D_CRT_SECURE_NO_WARNINGS",
+          "/std:c++17",
+          "/permissive-",
+          "/bigobj",
+          "/O2",
+          "/MD"
+        ],
+        "macros": [
+          "RUNNING_FRC_TESTS"
+        ],
+        "sharedLibrary": false,
+        "executable": false
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 1,
+      "frcUserProgramTest": 0
     }
   }
 ]
