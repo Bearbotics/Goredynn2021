@@ -1,0 +1,27 @@
+- What Code Does
+  - Driving With Joysticks
+  - Firing with Joysticks (LIVE DEMO OF CONTROLS)
+  - Visual interface: shuffleboard
+- What further features might be nice to have implemented
+- What is tomorrow's plan?
+  - Should we put add camera to the robot? - give drivers a 2ndary way to check aim
+  - Implementing Closed Loop Control
+  - Mechanical Stuff?
+    - What's happening here?
+  - The Field / Markers?
+    - Make eveything neat and tidy for filming & verify measurements/colour zones
+  - For filming:
+    - Most likley best to use an iPhone (iPhone 12 Pro & 11 Pro have great video)
+    - Maybe see if the library or photography classroom has a tripod + phone mount
+    - If no tripod or phone mount, find a good way to hold phone stationary for video.
+- Notes
+  - Stuff to Implement
+  - Add another stage to the elevator motor
+  - Something in the manual about time
+    - Any POWER CELLS released by the ROBOT within the 5-minute time period and subsequently scored will count. To avoid timing errors, you can manage the time automatically by using the Practice Timing of the FRC Driver Station set to the correct timing (5,0,0,300,0) as shown in this WPILib documentation.
+  - Testing 
+    - Test Speed Percentage
+    - Button you can presson the joystick, that'd convert the joystick to escalator control
+  - Escalator
+    - Sensor at the top?
+  - Field Markings?
