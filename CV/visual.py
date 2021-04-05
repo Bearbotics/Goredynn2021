@@ -40,7 +40,7 @@ if __name__ == "__main__":
    # Create input stream for the second camera
    input_stream = cs.getVideo(name="Aim Camera",camera = cam2)
 
-   # Create Output Stream for Shuffleboard to receive video
+   # Create output Stream for Shuffleboard to receive video
    output_stream = cs.putVideo("Aim", width, height)
 
    # Get default a new Vision table
@@ -76,7 +76,7 @@ if __name__ == "__main__":
       # THE ORIGIN OF COORDS ARE CENTERED AT THE MIDDLE
       x = nt.getNumber('Crosshair - X')
       y = nt.getNumber('Crosshair - Y')
-      radius = nt.getNumber('Crosshair Radius')
+      rad = nt.getNumber('Crosshair Radius')
 
       # Draw a circle centered at x and y coords
       # with arbitrary radius, color, and thickness?
@@ -85,7 +85,7 @@ if __name__ == "__main__":
       cv2.circle(
          output_img, 
          [width + x, height + y], 
-         radius = 6, # this probably needs to change to
+         radius = rad, # this probably needs to change to
                      # something smaller
          color = (0, 0, 255), 
          thickness = -1) # negative thickness might mean
