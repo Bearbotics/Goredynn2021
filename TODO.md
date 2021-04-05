@@ -9,7 +9,7 @@
 
 ### Stuff that I'll ask other people to do
 - Need to get William to help me test things out?
-- 3d Print Raspberry Pi Case
+- 3d Print Raspberry Pi Case - **Maybe I'll have to do it?**
 - Add encoder to the other shooter motor and connect them to their Spark Maxes
 - Get person to add shaft encoder?, instead of using motor outputs
   - Simplifies things vassssstly
@@ -17,6 +17,7 @@
     - No need to worry about two SEPERATE PID control loops
     - REF: chiefdelphi.com/t/pid-on-2-motor-shooter-wheel/159528/5
 
+#### 3d printer 
 - Get .gcode
 - Goto 3d Printer
 - Grab little flashdrive plugged into the printer
