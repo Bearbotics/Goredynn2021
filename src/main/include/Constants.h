@@ -27,6 +27,7 @@ constexpr int triggerButton = 1;
 constexpr int sideButton = 2;
 
 constexpr char tabName[] = "Dashboard";
+constexpr char visionTabName[] = "Vision";
 
 // for Camera stuff? Applies to both cameras
 // REMEMBER TO ADJUST IF ADJUSTING CAM RESOLUTION

@@ -1,3 +1,5 @@
+# This file should be uploaded to the 
+# Raspberry Pi Coprocessor to work
 from cscore import CameraServer,UsbCamera
 from networktables import NetworkTables, NetworkTablesInstance
 
@@ -41,8 +43,9 @@ if __name__ == "__main__":
    # Create Output Stream for Shuffleboard to receive video
    output_stream = cs.putVideo("Aim", width, height)
 
-   # Get default Dashboard table
-   nt = NetworkTables.getTable("Dashboard")
+   # Get default a new Vision table
+   # believe this is equivalent to "tabs"
+   nt = NetworkTables.getTable("Vision")
 
    # Allocating new images is very expensive, 
    # always try to preallocate space first
@@ -73,6 +76,7 @@ if __name__ == "__main__":
       # THE ORIGIN OF COORDS ARE CENTERED AT THE MIDDLE
       x = nt.getNumber('Crosshair - X')
       y = nt.getNumber('Crosshair - Y')
+      radius = nt.getNumber('Crosshair Radius')
 
       # Draw a circle centered at x and y coords
       # with arbitrary radius, color, and thickness?

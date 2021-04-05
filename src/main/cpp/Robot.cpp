@@ -29,11 +29,11 @@ void Robot::RobotInit()
   // can change the network table, and
   // the user will just be able to see
   // the slider
-  frc::Shuffleboard::GetTab(tabName)
+  frc::Shuffleboard::GetTab(visionTabName)
     .AddPersistent("Crosshair - X", 0)
     .WithWidget(frc::BuiltInWidgets::kNumberSlider)
     .WithProperties(defaultXRange);
-  frc::Shuffleboard::GetTab(tabName)
+  frc::Shuffleboard::GetTab(visionTabName)
     .AddPersistent("Crosshair - Y", 0)
     .WithWidget(frc::BuiltInWidgets::kNumberSlider)
     .WithProperties(defaultYRange);
