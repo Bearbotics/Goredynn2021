@@ -53,7 +53,7 @@ private:
     rev::CANSparkMax shooterMotorTwo_{shooterMotorTwoId, rev::CANSparkMax::MotorType::kBrushed};
     frc::SpeedControllerGroup shooterMotors_{shooterMotorOne_, shooterMotorTwo_};
     
-    // Might not actually be an error; Don't need this if burnt to flash using Rev Hardware Client
+    // Might not actually be an error; Don't need this if already burnt to flash using Rev Hardware Client
     // rev::CANError followError_ = shooterMotorTwo_.Follow(shooterMotorOne_); 
     bool PIDControl = false; // It'd be a miracle if this worked
 

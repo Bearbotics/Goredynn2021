@@ -1,6 +1,7 @@
 ### Stuff that I need to implement
 - Write something that interfaces with the analog sensor and shows it in Shuffleboard
 - Implement Follower Mode
+  - Primarily done, but I think it'd still be best implemented through Rev Hardware Client
 - Add support for PID control through the dashboard using the velocity preset
   - Use kPIDController in Shuffleboard
   - Maybe add toggle between PID and SetSpeed()?
@@ -10,7 +11,7 @@
 - Need to get William to help me test things out?
 - 3d Print Raspberry Pi Case
 - Add encoder to the other shooter motor and connect them to their Spark Maxes
-- Get person to add shaft encoder, instead of using motor outputs
+- Get person to add shaft encoder?, instead of using motor outputs
   - Simplifies things vassssstly
     - No need to worry about gearing
     - No need to worry about two SEPERATE PID control loops
