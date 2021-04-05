@@ -19,6 +19,10 @@ void Robot::RobotInit()
     std::make_pair("min", nt::Value::MakeDouble(-camHeight/2)),
     std::make_pair("max", nt::Value::MakeDouble(camHeight/2))
   };
+  wpi::StringMap<std::shared_ptr<nt::Value>> defaultRadiusRange {
+    std::make_pair("min", nt::Value::MakeDouble(-10)),
+    std::make_pair("max", nt::Value::MakeDouble(camHeight/2))
+  };
   // Code for the fancy new Camera Crosshair stuff mebe?
   // Which really just needs to add in some widgets
   // Shouldn't need to actually interface with those widgets
@@ -37,7 +41,10 @@ void Robot::RobotInit()
     .AddPersistent("Crosshair - Y", 0)
     .WithWidget(frc::BuiltInWidgets::kNumberSlider)
     .WithProperties(defaultYRange);
-  
+  frc::Shuffleboard::GetTab(visionTabName)
+    .AddPersistent("Crosshair - Radius", 0)
+    .WithWidget(frc::BuiltInWidgets::kNumberSlider)
+    .WithProperties(defaultRadiusRange);
 }
 void Robot::RobotPeriodic() {}
 
