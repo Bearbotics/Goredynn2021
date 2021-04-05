@@ -47,9 +47,17 @@ private:
     rev::CANSparkMax intakeMotor_{intakeMotorId, rev::CANSparkMax::MotorType::kBrushed};
     rev::CANSparkMax escalatorMotor_{escalatorMotorId, rev::CANSparkMax::MotorType::kBrushed};
     rev::CANSparkMax feederMotor_{feederMotorId, rev::CANSparkMax::MotorType::kBrushed};
+    // shooterMotorOne_ will be the leader
     rev::CANSparkMax shooterMotorOne_{shooterMotorOneId, rev::CANSparkMax::MotorType::kBrushed};
+    // shooterMotorTwo_ will follow shooterMotorOne_
     rev::CANSparkMax shooterMotorTwo_{shooterMotorTwoId, rev::CANSparkMax::MotorType::kBrushed};
     frc::SpeedControllerGroup shooterMotors_{shooterMotorOne_, shooterMotorTwo_};
+    
+    // Might not actually be an error; Don't need this if burnt to flash using Rev Hardware Client
+    // rev::CANError followError_ = shooterMotorTwo_.Follow(shooterMotorOne_); 
+    bool PIDControl = false; // It'd be a miracle if this worked
+
+    rev::CANPIDController PIDControllerLeader_ {shooterMotorOne_};
 
     // Initialize Joysticks
     frc::Joystick firstJoystick_{firstJoystickId};

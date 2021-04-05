@@ -7,7 +7,38 @@
 #include "Robot.h"
 
 
-void Robot::RobotInit() {}
+void Robot::RobotInit() 
+{
+  // Creates the two ranges for where the center of the crosshair
+  // could be
+  wpi::StringMap<std::shared_ptr<nt::Value>> defaultXRange {
+    std::make_pair("min", nt::Value::MakeDouble(-camWidth/2)),
+    std::make_pair("max", nt::Value::MakeDouble(camWidth/2))
+  };
+  wpi::StringMap<std::shared_ptr<nt::Value>> defaultYRange {
+    std::make_pair("min", nt::Value::MakeDouble(-camHeight/2)),
+    std::make_pair("max", nt::Value::MakeDouble(camHeight/2))
+  };
+  // Code for the fancy new Camera Crosshair stuff mebe?
+  // Which really just needs to add in some widgets
+  // Shouldn't need to actually interface with those widgets
+  // but having a nice min max would be cool
+
+  // 0 is just a default value
+  // Doing this is just so that the pi
+  // can change the network table, and
+  // the user will just be able to see
+  // the slider
+  frc::Shuffleboard::GetTab(tabName)
+    .AddPersistent("Crosshair - X", 0)
+    .WithWidget(frc::BuiltInWidgets::kNumberSlider)
+    .WithProperties(defaultXRange);
+  frc::Shuffleboard::GetTab(tabName)
+    .AddPersistent("Crosshair - Y", 0)
+    .WithWidget(frc::BuiltInWidgets::kNumberSlider)
+    .WithProperties(defaultYRange);
+  
+}
 void Robot::RobotPeriodic() {}
 
 void Robot::AutonomousInit() {}
@@ -35,14 +66,14 @@ void Robot::TeleopPeriodic()
   
   // Starts both shooter motors when sideButton is pressed
   firstJoystick_.GetRawButton(sideButton)                   // condition for if/else
-  ? shooterMotors_.Set(shooterSpeed_.GetDouble(0.25))        // runs if condition is true
-  : shooterMotors_.Set(shooterSpeed_.GetDouble(0.0));       // runs condition is else (if not true)
+  ? shooterMotors_.Set(shooterSpeed_.GetDouble(0.25))       // runs if condition is true; sets speed to 0.25 as default
+  : shooterMotors_.Set(0);                                  // runs if condition is else (if not true); sets speed to 0
 
   // activates the feeder when trigger button is pressed
   // this checks if the trigger button is held down
   firstJoystick_.GetRawButton(triggerButton)                // condition for if/else
-  ? feederMotor_.Set(feederSpeed_.GetDouble(0.5))           //what runs if true
-  : feederMotor_.Set(feederSpeed_.GetDouble(0.0));          //what runs if else (not true)
+  ? feederMotor_.Set(feederSpeed_.GetDouble(0.5))           // what runs if true; 0.5 default
+  : feederMotor_.Set(0);                                    // what runs if else (not true); 0 because off
 }
 
 void Robot::DisabledInit() {}
@@ -51,8 +82,10 @@ void Robot::DisabledPeriodic() {}
 void Robot::TestInit() {}
 void Robot::TestPeriodic() 
 {
-  // just run teleop, because the built in widget
-  // kSpeedController should be editable only in test mode
+  // just run teleop
+  // see if something could be implemented
+  // to lock networktableentry values / not receive
+  // input from Shuffleboard during teleop, but only during testing?
   TeleopPeriodic();
 }
 

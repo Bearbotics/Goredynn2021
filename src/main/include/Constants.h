@@ -28,5 +28,10 @@ constexpr int sideButton = 2;
 
 constexpr char tabName[] = "Dashboard";
 
+// for Camera stuff? Applies to both cameras
+// REMEMBER TO ADJUST IF ADJUSTING CAM RESOLUTION
+constexpr int camWidth = 320;
+constexpr int camHeight = 240;
+
 // useless ig?
 // constexpr int pdpId = 20;
