@@ -45,6 +45,9 @@ void Robot::RobotInit()
     .AddPersistent("Crosshair - Radius", 0)
     .WithWidget(frc::BuiltInWidgets::kNumberSlider)
     .WithProperties(defaultRadiusRange);
+  // frc::Shuffleboard::GetTab(tabName)
+  //   .Add("Sensor", false)
+  //   .WithWidget(frc::BuiltInWidgets::kBooleanBox);
 }
 void Robot::RobotPeriodic() {}
 
@@ -65,22 +68,41 @@ void Robot::TeleopPeriodic()
   //construct mecanum drive with inputs from the 2 joysticks & gyroangle for
   //field oreiented control
   mecanumDrive_.DriveCartesian(
-    pow(firstJoystick_.GetX() , 3)      , 
-    pow(firstJoystick_.GetY() , 3)      , 
-    pow(secondJoystick_.GetX(), 3) * .7 , 
-    gyroAngle
+      pow(firstJoystick_.GetY() , 3)      , 
+      pow(firstJoystick_.GetX() , 3)      , 
+      pow(secondJoystick_.GetX(), 3) * .7 , 
+      gyroAngle
   );
   
   // Starts both shooter motors when sideButton is pressed
-  firstJoystick_.GetRawButton(sideButton)                   // condition for if/else
-  ? shooterMotors_.Set(shooterSpeed_.GetDouble(0.25))       // runs if condition is true; sets speed to 0.25 as default
-  : shooterMotors_.Set(0);                                  // runs if condition is else (if not true); sets speed to 0
+  // firstJoystick_.GetRawButton(sideButton)                   // condition for if/else
+  // ? shooterMotors_.Set(shooterSpeed_.GetDouble(0.25))       // runs if condition is true; sets speed to 0.25 as default
+  // : shooterMotors_.Set(0);                                  // runs if condition is else (if not true); sets speed to 0
+  firstJoystick_.GetRawButton(sideButton)
+  ? shooterMotorOne_.Set(shooterSpeed_.GetDouble(0.25))
+  : shooterMotorOne_.Set(0);
 
   // activates the feeder when trigger button is pressed
   // this checks if the trigger button is held down
   firstJoystick_.GetRawButton(triggerButton)                // condition for if/else
   ? feederMotor_.Set(feederSpeed_.GetDouble(0.5))           // what runs if true; 0.5 default
   : feederMotor_.Set(0);                                    // what runs if else (not true); 0 because off
+  
+  if (secondJoystick_.GetRawButton(triggerButton))
+  {
+    escalatorMotor_.Set(escalatorSpeed_.GetDouble(0.5));
+    intakeMotor_.Set(intakeSpeed_.GetDouble(0.5));
+  } 
+  else 
+  {
+    escalatorMotor_.Set(0);
+    intakeMotor_.Set(0);
+  }
+
+  // // Update intake motor
+  // intakeMotor_.Set(intakeSpeed_.GetDouble(0.0));
+  // // Update escalator motor
+  // escalatorMotor_.Set(escalatorSpeed_.GetDouble(0.0));
 }
 
 void Robot::DisabledInit() {}

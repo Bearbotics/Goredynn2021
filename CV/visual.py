@@ -29,16 +29,16 @@ if __name__ == "__main__":
    # Initiate first camera to automatically send to dashboard 
    # https://robotpy.readthedocs.io/en/latest/vision/code.html#vision-code
    #                                \/ - preferably use paths? ref above
-   cam1 = cs.startAutomaticCapture(dev=0)
-   cam1.setResolution(width, height)
+   # cam1 = cs.startAutomaticCapture(dev=0)
+   # cam1.setResolution(width, height)
     
    # Initiate second camera to process and then send to dashboard
    # TODO: find what path               \/ is
-   cam2 = UsbCamera(name="Aim Camera", dev=1)
+   cam2 = UsbCamera(name="Aim Camera", dev=0)
    cam2.setResolution(width, height)
 
    # Create input stream for the second camera
-   input_stream = cs.getVideo(name="Aim Camera",camera = cam2)
+   input_stream = cs.getVideo(camera = cam2)
 
    # Create output Stream for Shuffleboard to receive video
    output_stream = cs.putVideo("Aim", width, height)
@@ -74,9 +74,9 @@ if __name__ == "__main__":
       
       # Get x and y coordinates from Shuffleboard.
       # THE ORIGIN OF COORDS ARE CENTERED AT THE MIDDLE
-      x = nt.getNumber('Crosshair - X')
-      y = nt.getNumber('Crosshair - Y')
-      rad = nt.getNumber('Crosshair Radius')
+      x = nt.getNumber('Crosshair - X', 0)
+      y = nt.getNumber('Crosshair - Y', 0)
+      rad = nt.getNumber('Crosshair Radius', 3)
 
       # Draw a circle centered at x and y coords
       # with arbitrary radius, color, and thickness?
@@ -84,7 +84,7 @@ if __name__ == "__main__":
       # in the middle
       cv2.circle(
          output_img, 
-         [width + x, height + y], 
+         (width + x, height + y), 
          radius = rad, # this probably needs to change to
                      # something smaller
          color = (0, 0, 255), 

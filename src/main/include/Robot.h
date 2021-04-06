@@ -51,13 +51,14 @@ private:
     rev::CANSparkMax shooterMotorOne_{shooterMotorOneId, rev::CANSparkMax::MotorType::kBrushed};
     // shooterMotorTwo_ will follow shooterMotorOne_
     rev::CANSparkMax shooterMotorTwo_{shooterMotorTwoId, rev::CANSparkMax::MotorType::kBrushed};
-    frc::SpeedControllerGroup shooterMotors_{shooterMotorOne_, shooterMotorTwo_};
+    
+    // frc::SpeedControllerGroup shooterMotors_{shooterMotorOne_, shooterMotorTwo_};
     
     // Might not actually be an error; Don't need this if already burnt to flash using Rev Hardware Client
-    // rev::CANError followError_ = shooterMotorTwo_.Follow(shooterMotorOne_); 
+    rev::CANError followError_ = shooterMotorTwo_.Follow(shooterMotorOne_); 
     bool PIDControl = false; // It'd be a miracle if this worked
 
-    rev::CANPIDController PIDControllerLeader_ {shooterMotorOne_};
+    // rev::CANPIDController PIDControllerLeader_ {shooterMotorOne_};
 
     // Initialize Joysticks
     frc::Joystick firstJoystick_{firstJoystickId};
