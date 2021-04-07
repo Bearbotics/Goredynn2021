@@ -29,23 +29,23 @@ if __name__ == "__main__":
    # Initiate first camera to automatically send to dashboard 
    # https://robotpy.readthedocs.io/en/latest/vision/code.html#vision-code
    #                                \/ - preferably use paths? ref above
-   # cam1 = cs.startAutomaticCapture(dev=0)
-   # cam1.setResolution(width, height)
+   cam1 = cs.startAutomaticCapture(dev=0)
+   cam1.setResolution(width, height)
     
    # Initiate second camera to process and then send to dashboard
    # TODO: find what path               \/ is
-   cam2 = UsbCamera(name="Aim Camera", dev=0)
+   cam2 = UsbCamera(name="Aim Cam Unprocessed", dev=2)
    cam2.setResolution(width, height)
 
    # Create input stream for the second camera
    input_stream = cs.getVideo(camera = cam2)
 
    # Create output Stream for Shuffleboard to receive video
-   output_stream = cs.putVideo("Aim", width, height)
+   output_stream = cs.putVideo("Aim Cam Processed", width, height)
 
    # Get default a new Vision table
    # believe this is equivalent to "tabs"
-   nt = NetworkTables.getTable("Vision")
+   nt = ntinst.getTable("Vision")
 
    # Allocating new images is very expensive, 
    # always try to preallocate space first
@@ -74,9 +74,9 @@ if __name__ == "__main__":
       
       # Get x and y coordinates from Shuffleboard.
       # THE ORIGIN OF COORDS ARE CENTERED AT THE MIDDLE
-      x = nt.getNumber('Crosshair - X', 0)
-      y = nt.getNumber('Crosshair - Y', 0)
-      rad = nt.getNumber('Crosshair Radius', 3)
+      x = nt.getEntry('Crosshair - X').getDouble(defaultValue=0)
+      y = nt.getEntry('Crosshair - Y').getDouble(defaultValue=0)
+      rad = nt.getEntry('Crosshair Radius').getDouble(defaultValue=5)
 
       # Draw a circle centered at x and y coords
       # with arbitrary radius, color, and thickness?
@@ -84,11 +84,11 @@ if __name__ == "__main__":
       # in the middle
       cv2.circle(
          output_img, 
-         (width + x, height + y), 
+         (width/2 + x, height/2 + y), 
          radius = rad, # this probably needs to change to
                      # something smaller
          color = (0, 0, 255), 
-         thickness = -1) # negative thickness might mean
+         thickness = int(6)) # negative thickness might mean
                           # to fill in the circle?
 
       # Calculates processing time
