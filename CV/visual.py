@@ -88,7 +88,7 @@ if __name__ == "__main__":
          radius = rad, # this probably needs to change to
                      # something smaller
          color = (0, 0, 255), 
-         thickness = int(6)) # negative thickness might mean
+         thickness = 6) # negative thickness might mean
                           # to fill in the circle?
 
       # Calculates processing time
