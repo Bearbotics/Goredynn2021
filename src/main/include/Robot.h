@@ -119,11 +119,42 @@ private:
     nt::NetworkTableEntry switchSpeedToGreenNTBool_ = frc::Shuffleboard::GetTab(tabName)
                                                         .Add("Green Zone Shooter Speed",true)
                                                         .WithWidget(frc::BuiltInWidgets::kToggleButton)
-                                                        .WithPosition(7,1)
-                                                        .WithSize(1,2)
+                                                        .WithPosition(5,0)
+                                                        .WithSize(2,2)
                                                         .GetEntry();
 
-                                    
+    // testing
+    nt::NetworkTableEntry actualIntakeSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
+                                                .AddPersistent("Escalator Motor", 0.0)
+                                                .WithWidget(frc::BuiltInWidgets::kNumberBar)
+                                                .WithPosition(1, 1)
+                                                .WithSize(5,1)
+                                                .GetEntry();
+    nt::NetworkTableEntry actualEscalatorSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
+                                                .AddPersistent("Escalator Motor", 0.0)
+                                                .WithWidget(frc::BuiltInWidgets::kNumberBar)
+                                                .WithPosition(1, 1)
+                                                .WithSize(5,1)
+                                                .GetEntry();
+    nt::NetworkTableEntry actualFeederSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
+                                             .AddPersistent("Feeder Motor", 0.0)
+                                             .WithWidget(frc::BuiltInWidgets::kNumberBar)
+                                             .WithPosition(1, 2)
+                                             .WithSize(5,1)
+                                             .GetEntry();
+    nt::NetworkTableEntry actualShooterSpeed1_ = frc::Shuffleboard::GetTab(testingTabName)
+                                              .AddPersistent("Shooter Motor", 0.0)
+                                              .WithWidget(frc::BuiltInWidgets::kNumberBar)
+                                              .WithPosition(1, 3)
+                                              .WithSize(5,1)
+                                              .GetEntry();
+    nt::NetworkTableEntry actualShooterSpeed2_ = frc::Shuffleboard::GetTab(testingTabName)
+                                              .AddPersistent("Shooter Motor Green Zone", 0.0)
+                                              .WithWidget(frc::BuiltInWidgets::kNumberBar)
+                                              .WithPosition(1, 4)
+                                              .WithSize(5,1)
+                                              .GetEntry();
+    
     // nt::NetworkTableInstance defaultNTInst_ = nt::NetworkTableInstance::GetDefault();
     // std::shared_ptr<nt::NetworkTable> cameraPublisher_ = defaultNTInst_.GetTable("CameraPublisher");
     // std::shared_ptr<nt::Value> shooterCam_ = cameraPublisher_->GetValue("Aim Cam Processed");

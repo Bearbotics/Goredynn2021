@@ -28,6 +28,7 @@ constexpr int sideButton = 2;
 
 constexpr char tabName[] = "Dashboard";
 constexpr char visionTabName[] = "Vision";
+constexpr char testingTabName[] = "Testing - AHHHHHHHHHHHHH";
 
 // for Camera stuff? Applies to both cameras
 // REMEMBER TO ADJUST IF ADJUSTING CAM RESOLUTION

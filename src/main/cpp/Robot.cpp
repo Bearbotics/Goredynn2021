@@ -133,7 +133,8 @@ void Robot::TeleopPeriodic()
 void Robot::DisabledInit() {}
 void Robot::DisabledPeriodic() {}
 
-void Robot::TestInit() {}
+void Robot::TestInit() {
+}
 void Robot::TestPeriodic() 
 {
   double gyroAngle = pigeon_.GetAbsoluteCompassHeading();
@@ -143,7 +144,11 @@ void Robot::TestPeriodic()
   // to lock networktableentry values / not receive
   // input from Shuffleboard during teleop, but only during testing?
   TeleopPeriodic();
-  printf("Shooter Motor Speed: %f\n",shooterMotorOne_.Get());
+  actualIntakeSpeed_.SetDouble(intakeMotor_.Get());
+  actualEscalatorSpeed_.SetDouble(escalatorMotor_.Get());
+  actualFeederSpeed_.SetDouble(feederMotor_.Get());
+  actualShooterSpeed1_.SetDouble(shooterMotorOne_.Get());
+  actualShooterSpeed2_.SetDouble(shooterMotorTwo_.Get());
 }
 
 #ifndef RUNNING_FRC_TESTS
