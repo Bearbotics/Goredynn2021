@@ -125,31 +125,31 @@ private:
 
     // testing
     nt::NetworkTableEntry actualIntakeSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
-                                                .AddPersistent("Escalator Motor", 0.0)
+                                                .AddPersistent("Actual Intake Speed", 0.0)
                                                 .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                                 .WithPosition(1, 1)
                                                 .WithSize(5,1)
                                                 .GetEntry();
     nt::NetworkTableEntry actualEscalatorSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
-                                                .AddPersistent("Escalator Motor", 0.0)
+                                                .AddPersistent("Actual Escalator Speed", 0.0)
                                                 .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                                 .WithPosition(1, 1)
                                                 .WithSize(5,1)
                                                 .GetEntry();
     nt::NetworkTableEntry actualFeederSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
-                                             .AddPersistent("Feeder Motor", 0.0)
+                                             .AddPersistent("Actual Feeder Speed", 0.0)
                                              .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                              .WithPosition(1, 2)
                                              .WithSize(5,1)
                                              .GetEntry();
     nt::NetworkTableEntry actualShooterSpeed1_ = frc::Shuffleboard::GetTab(testingTabName)
-                                              .AddPersistent("Shooter Motor", 0.0)
+                                              .AddPersistent("Actual Shooter Motor 1 Speed", 0.0)
                                               .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                               .WithPosition(1, 3)
                                               .WithSize(5,1)
                                               .GetEntry();
     nt::NetworkTableEntry actualShooterSpeed2_ = frc::Shuffleboard::GetTab(testingTabName)
-                                              .AddPersistent("Shooter Motor Green Zone", 0.0)
+                                              .AddPersistent("Actual Shooter Motor 2 - Following so prolly doesn't matter", 0.0)
                                               .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                               .WithPosition(1, 4)
                                               .WithSize(5,1)
