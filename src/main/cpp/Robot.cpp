@@ -143,7 +143,7 @@ void Robot::TestPeriodic()
   // to lock networktableentry values / not receive
   // input from Shuffleboard during teleop, but only during testing?
   TeleopPeriodic();
-  printf("Shooter Motor Speed: %f",shooterMotorOne_.Get());
+  printf("Shooter Motor Speed: %f\n",shooterMotorOne_.Get());
 }
 
 #ifndef RUNNING_FRC_TESTS
