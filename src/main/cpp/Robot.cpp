@@ -58,8 +58,17 @@ void Robot::AutonomousPeriodic() {}
 
 void Robot::TeleopInit() 
 {
-  switchSpeedToGreen_ = true;
-  switchSpeedToGreenNTBool_.SetBoolean(true);
+  if (greenZoneDisabler_.GetBoolean(true))
+  {
+    switchSpeedToGreen_ = true;
+    switchSpeedToGreenNTBool_.SetBoolean(true);
+  }
+  else
+  {
+    switchSpeedToGreen_ = false;
+    switchSpeedToGreenNTBool_.SetBoolean(false);    
+  }
+  
 }
 void Robot::TeleopPeriodic()
 {
@@ -138,6 +147,7 @@ void Robot::DisabledInit() {}
 void Robot::DisabledPeriodic() {}
 
 void Robot::TestInit() {
+  TeleopInit();
 }
 void Robot::TestPeriodic() 
 {
@@ -160,6 +170,14 @@ void Robot::TestPeriodic()
   else if (intakeSignMultiplier_ == -1)
   {
     actualIntakeReversal_.SetBoolean(true);
+  }
+  if (switchSpeedToGreen_ == true)
+  {
+    actualGreenZone_.SetBoolean(true);
+  }
+  else if (switchSpeedToGreen_ == false)
+  {
+    actualGreenZone_.SetBoolean(false);
   }
 }
 

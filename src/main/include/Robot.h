@@ -72,8 +72,8 @@ private:
     frc::ComplexWidget *mecanumShuffleboard = &frc::Shuffleboard::GetTab(tabName)
                                                    .Add("Mecanum Drive", mecanumDrive_)
                                                    .WithWidget(frc::BuiltInWidgets::kMecanumDrive)
-                                                   .WithPosition(4,2)
-                                                   .WithSize(4,2);
+                                                   .WithPosition(4, 2)
+                                                   .WithSize(4, 2);
 
     // Initialize a bunch of shuffleboard network tables
     // for the speeds that everything should be set at
@@ -87,78 +87,90 @@ private:
                                              // Set Position of widget
                                              .WithPosition(1, 0)
                                              // Adding a Size?
-                                             .WithSize(2,1)
+                                             .WithSize(2, 1)
                                              // Get Network Table that will be dynamically updated
                                              .GetEntry();
     nt::NetworkTableEntry escalatorSpeed_ = frc::Shuffleboard::GetTab(tabName)
                                                 .AddPersistent("Escalator Motor", 0.0)
                                                 .WithWidget(frc::BuiltInWidgets::kNumberSlider)
                                                 .WithPosition(1, 1)
-                                                .WithSize(2,1)
+                                                .WithSize(2, 1)
                                                 .GetEntry();
     int intakeSignMultiplier_ = 1;
     nt::NetworkTableEntry feederSpeed_ = frc::Shuffleboard::GetTab(tabName)
                                              .AddPersistent("Feeder Motor", 0.0)
                                              .WithWidget(frc::BuiltInWidgets::kNumberSlider)
                                              .WithPosition(1, 2)
-                                             .WithSize(2,1)
+                                             .WithSize(2, 1)
                                              .GetEntry();
     nt::NetworkTableEntry shooterSpeed_ = frc::Shuffleboard::GetTab(tabName)
                                               .AddPersistent("Shooter Motor", 0.0)
                                               .WithWidget(frc::BuiltInWidgets::kNumberSlider)
                                               .WithPosition(1, 3)
-                                              .WithSize(2,1)
+                                              .WithSize(2, 1)
                                               .GetEntry();
     nt::NetworkTableEntry shooterSpeedGreen_ = frc::Shuffleboard::GetTab(tabName)
                                               .AddPersistent("Shooter Motor Green Zone", 0.0)
                                               .WithWidget(frc::BuiltInWidgets::kNumberSlider)
                                               .WithPosition(1, 4)
-                                              .WithSize(2,1)
+                                              .WithSize(2, 1)
                                               .GetEntry();
     bool switchSpeedToGreen_ = true;
     nt::NetworkTableEntry switchSpeedToGreenNTBool_ = frc::Shuffleboard::GetTab(tabName)
                                                         .Add("Green Zone Shooter Speed",true)
                                                         .WithWidget(frc::BuiltInWidgets::kToggleButton)
-                                                        .WithPosition(5,0)
-                                                        .WithSize(2,2)
+                                                        .WithPosition(5, 0)
+                                                        .WithSize(2, 2)
                                                         .GetEntry();
 
     // testing
     nt::NetworkTableEntry actualIntakeSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
-                                                .AddPersistent("Actual Intake Speed", 0.0)
+                                                .Add("Actual Intake Speed", 0.0)
                                                 .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                                 .WithPosition(1, 1)
-                                                .WithSize(5,1)
+                                                .WithSize(5, 1)
                                                 .GetEntry();
     nt::NetworkTableEntry actualEscalatorSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
-                                                .AddPersistent("Actual Escalator Speed", 0.0)
+                                                .Add("Actual Escalator Speed", 0.0)
                                                 .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                                 .WithPosition(1, 2)
-                                                .WithSize(5,1)
+                                                .WithSize(5, 1)
                                                 .GetEntry();
     nt::NetworkTableEntry actualFeederSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
-                                             .AddPersistent("Actual Feeder Speed", 0.0)
+                                             .Add("Actual Feeder Speed", 0.0)
                                              .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                              .WithPosition(1, 3)
-                                             .WithSize(5,1)
+                                             .WithSize(5, 1)
                                              .GetEntry();
     nt::NetworkTableEntry actualShooterSpeed1_ = frc::Shuffleboard::GetTab(testingTabName)
-                                              .AddPersistent("Actual Shooter Motor 1 Speed", 0.0)
+                                              .Add("Actual Shooter Motor 1 Speed", 0.0)
                                               .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                               .WithPosition(1, 4)
-                                              .WithSize(5,1)
+                                              .WithSize(5, 1)
                                               .GetEntry();
     nt::NetworkTableEntry actualShooterSpeed2_ = frc::Shuffleboard::GetTab(testingTabName)
-                                              .AddPersistent("Actual Shooter Motor 2 - Following so prolly doesn't matter", 0.0)
+                                              .Add("Actual Shooter Motor 2 - Following so prolly doesn't matter", 0.0)
                                               .WithWidget(frc::BuiltInWidgets::kNumberBar)
                                               .WithPosition(1, 5)
-                                              .WithSize(5,1)
+                                              .WithSize(5, 1)
                                               .GetEntry();
     nt::NetworkTableEntry actualIntakeReversal_ = frc::Shuffleboard::GetTab(testingTabName)
-                                            .AddPersistent("Intake Reversal", false)
+                                            .Add("Intake Reversal", false)
                                             .WithWidget(frc::BuiltInWidgets::kBooleanBox)
-                                            .WithPosition(1, 5)
-                                            .WithSize(5,1)
+                                            .WithPosition(6, 1)
+                                            .WithSize(3, 3)
+                                            .GetEntry();
+    nt::NetworkTableEntry actualGreenZone_ = frc::Shuffleboard::GetTab(testingTabName)
+                                            .Add("Green Zone Shooting Enabled", false)
+                                            .WithWidget(frc::BuiltInWidgets::kBooleanBox)
+                                            .WithPosition(9, 1)
+                                            .WithSize(3, 3)
+                                            .GetEntry();
+    nt::NetworkTableEntry greenZoneDisabler_ = frc::Shuffleboard::GetTab(testingTabName)
+                                            .AddPersistent("Interstellar Mode (Green Zone Shooting Disabled On Startup)", true)
+                                            .WithWidget(frc::BuiltInWidgets::kToggleButton)
+                                            .WithPosition(6, 4)
+                                            .WithSize(6, 2)
                                             .GetEntry();
     // nt::NetworkTableInstance defaultNTInst_ = nt::NetworkTableInstance::GetDefault();
     // std::shared_ptr<nt::NetworkTable> cameraPublisher_ = defaultNTInst_.GetTable("CameraPublisher");

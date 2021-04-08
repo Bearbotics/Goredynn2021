@@ -1,5 +1,17 @@
 [NetworkTables Storage 3.0]
-double "/Shuffleboard/Dashboard/Escalator Motor"=-0.230769
+double "/Shuffleboard/Dashboard/Escalator Motor"=0.615385
 double "/Shuffleboard/Dashboard/Feeder Motor"=0.529915
 double "/Shuffleboard/Dashboard/Intake Motor"=0.487179
 double "/Shuffleboard/Dashboard/Shooter Motor"=0.529915
+double "/Shuffleboard/Dashboard/Shooter Motor Green Zone"=0.273504
+double "/Shuffleboard/Testing - AHHHHHHHHHHHHH/Actual Escalator Speed"=-0.615385
+double "/Shuffleboard/Testing - AHHHHHHHHHHHHH/Actual Feeder Speed"=0
+double "/Shuffleboard/Testing - AHHHHHHHHHHHHH/Actual Intake Speed"=-0.487179
+double "/Shuffleboard/Testing - AHHHHHHHHHHHHH/Actual Shooter Motor 1 Speed"=0
+double "/Shuffleboard/Testing - AHHHHHHHHHHHHH/Actual Shooter Motor 2 - Following so prolly doesn't matter"=0
+boolean "/Shuffleboard/Testing - AHHHHHHHHHHHHH/Green Zone Shooting Enabled"=false
+boolean "/Shuffleboard/Testing - AHHHHHHHHHHHHH/Intake Reversal"=true
+boolean "/Shuffleboard/Testing - AHHHHHHHHHHHHH/Interstellar Mode (Green Zone Shooting Disabled On Startup)"=false
+double "/Shuffleboard/Vision/Crosshair - Radius"=0
+double "/Shuffleboard/Vision/Crosshair - X"=0
+double "/Shuffleboard/Vision/Crosshair - Y"=0
