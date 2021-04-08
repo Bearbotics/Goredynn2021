@@ -16,3 +16,5 @@
 
 ### Things to probably buy
 1. new Battery Beak
+2. 12v to 5v 3a (for Raspberry Pi)
+3. 

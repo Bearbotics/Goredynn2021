@@ -70,8 +70,8 @@ void Robot::TeleopPeriodic()
   //construct mecanum drive with inputs from the 2 joysticks & gyroangle for
   //field oreiented control
   mecanumDrive_.DriveCartesian(
-      pow(firstJoystick_.GetY() , 3) * .7 , 
-      pow(firstJoystick_.GetX() , 3) * .7 , 
+      pow(firstJoystick_.GetY() , 3) * .5 , 
+      pow(firstJoystick_.GetX() , 3) * .5 , 
       pow(secondJoystick_.GetX(), 3) * .5 
       // ,gyroAngle
   );
