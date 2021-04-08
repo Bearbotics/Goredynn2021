@@ -83,7 +83,7 @@ void Robot::TeleopPeriodic()
   if (firstJoystick_.GetRawButton(3))
   {
     switchSpeedToGreen_ = false;
-    switchSpeedToGreenNTBool_.GetBoolean(false);
+    switchSpeedToGreenNTBool_.SetBoolean(false);
   }
   switchSpeedToGreen_ = switchSpeedToGreenNTBool_.GetBoolean(false);
   
