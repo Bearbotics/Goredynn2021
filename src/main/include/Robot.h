@@ -85,7 +85,7 @@ private:
                                              // Builtin Widget made to set the speed of speed controllers
                                              .WithWidget(frc::BuiltInWidgets::kNumberSlider)
                                              // Set Position of widget
-                                             .WithPosition(1, 1)
+                                             .WithPosition(1, 0)
                                              // Adding a Size?
                                              .WithSize(2,1)
                                              // Get Network Table that will be dynamically updated
@@ -93,21 +93,67 @@ private:
     nt::NetworkTableEntry escalatorSpeed_ = frc::Shuffleboard::GetTab(tabName)
                                                 .AddPersistent("Escalator Motor", 0.0)
                                                 .WithWidget(frc::BuiltInWidgets::kNumberSlider)
-                                                .WithPosition(1, 2)
+                                                .WithPosition(1, 1)
                                                 .WithSize(2,1)
                                                 .GetEntry();
+    int intakeSignMultiplier_ = 1;
     nt::NetworkTableEntry feederSpeed_ = frc::Shuffleboard::GetTab(tabName)
                                              .AddPersistent("Feeder Motor", 0.0)
                                              .WithWidget(frc::BuiltInWidgets::kNumberSlider)
-                                             .WithPosition(1, 3)
+                                             .WithPosition(1, 2)
                                              .WithSize(2,1)
                                              .GetEntry();
     nt::NetworkTableEntry shooterSpeed_ = frc::Shuffleboard::GetTab(tabName)
                                               .AddPersistent("Shooter Motor", 0.0)
                                               .WithWidget(frc::BuiltInWidgets::kNumberSlider)
+                                              .WithPosition(1, 3)
+                                              .WithSize(2,1)
+                                              .GetEntry();
+    nt::NetworkTableEntry shooterSpeedGreen_ = frc::Shuffleboard::GetTab(tabName)
+                                              .AddPersistent("Shooter Motor Green Zone", 0.0)
+                                              .WithWidget(frc::BuiltInWidgets::kNumberSlider)
                                               .WithPosition(1, 4)
                                               .WithSize(2,1)
                                               .GetEntry();
+    bool switchSpeedToGreen_ = true;
+    nt::NetworkTableEntry switchSpeedToGreenNTBool_ = frc::Shuffleboard::GetTab(tabName)
+                                                        .Add("Green Zone Shooter Speed",true)
+                                                        .WithWidget(frc::BuiltInWidgets::kToggleButton)
+                                                        .WithPosition(7,1)
+                                                        .WithSize(1,2)
+                                                        .GetEntry();
+
+                                    
+    // nt::NetworkTableInstance defaultNTInst_ = nt::NetworkTableInstance::GetDefault();
+    // std::shared_ptr<nt::NetworkTable> cameraPublisher_ = defaultNTInst_.GetTable("CameraPublisher");
+    // std::shared_ptr<nt::Value> shooterCam_ = cameraPublisher_->GetValue("Aim Cam Processed");
+    // std::shared_ptr<nt::Value> intakeCam_ = cameraPublisher_->GetValue("Aim Cam Processed");
+    // frc::ShuffleboardLayout* configContainer_ = &frc::Shuffleboard::GetTab(tabName)
+    //                                             .GetLayout("Config", frc::BuiltInLayouts::kList)
+    //                                             .WithProperties(wpi::StringMap<std::shared_ptr<nt::Value>>{
+    //                                                 std::make_pair("Label position", nt::Value::MakeString("HIDDEN"))
+    //                                             })
+    //                                             .WithPosition(8,1)
+    //                                             .WithSize(1,4);
+    // nt::NetworkTableEntry config1_ = configContainer_->AddPersistent("Config 1", true)
+    //                                     .WithWidget(frc::BuiltInWidgets::kToggleSwitch)
+    //                                     .GetEntry();
+    // nt::NetworkTableEntry config2_ = configContainer_->AddPersistent("Config 2", false)
+    //                                     .WithWidget(frc::BuiltInWidgets::kToggleSwitch)
+    //                                     .GetEntry();
+    // nt::NetworkTableEntry config3_ = configContainer_->AddPersistent("Config 3", false)
+    //                                     .WithWidget(frc::BuiltInWidgets::kToggleSwitch)
+    //                                     .GetEntry();
+    // nt::NetworkTableEntry config4_ = configContainer_->AddPersistent("Config 4", false)
+    //                                     .WithWidget(frc::BuiltInWidgets::kToggleSwitch)
+    //                                     .GetEntry();
+    // nt::NetworkTableEntry config5_ = configContainer_->AddPersistent("Config 5", false)
+    //                                     .WithWidget(frc::BuiltInWidgets::kToggleSwitch)
+    //                                     .GetEntry();
+    // nt::NetworkTableEntry config6_ = configContainer_->AddPersistent("Config 6", false)
+    //                                     .WithWidget(frc::BuiltInWidgets::kToggleSwitch)
+    //                                     .GetEntry();
+    
     // ----------------
     // frc::PowerDistributionPanel pdp_{}
 };

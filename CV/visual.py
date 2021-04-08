@@ -23,6 +23,9 @@ if __name__ == "__main__":
    print("Setting up NetworkTables client for team {}".format(team))
    ntinst.startClientTeam(team)
 
+   ntVision = ntinst.getTable("Shuffleboard").getSubTable("Vision")
+   ntDashboard = ntinst.getTable("Shuffleboard").getSubTable("Dashboard")
+
    # Initiate CameraServer instance
    cs = CameraServer.getInstance()
 
@@ -30,11 +33,11 @@ if __name__ == "__main__":
    # https://robotpy.readthedocs.io/en/latest/vision/code.html#vision-code
    #                                \/ - preferably use paths? ref above
    cam1 = cs.startAutomaticCapture(dev=0)
-   cam1.setResolution(width, height)
+   cam1.setResolution(80, 45)
     
    # Initiate second camera to process and then send to dashboard
    # TODO: find what path               \/ is
-   cam2 = UsbCamera(name="Aim Cam Unprocessed", dev=2)
+   cam2 = UsbCamera(name="Aim Cam Unprocessed?", dev=2)
    cam2.setResolution(width, height)
 
    # Create input stream for the second camera
@@ -42,10 +45,6 @@ if __name__ == "__main__":
 
    # Create output Stream for Shuffleboard to receive video
    output_stream = cs.putVideo("Aim Cam Processed", width, height)
-
-   # Get default a new Vision table
-   # believe this is equivalent to "tabs"
-   nt = ntinst.getTable("Vision")
 
    # Allocating new images is very expensive, 
    # always try to preallocate space first
@@ -74,9 +73,9 @@ if __name__ == "__main__":
       
       # Get x and y coordinates from Shuffleboard.
       # THE ORIGIN OF COORDS ARE CENTERED AT THE MIDDLE
-      x = nt.getEntry('Crosshair - X').getDouble(defaultValue=0)
-      y = nt.getEntry('Crosshair - Y').getDouble(defaultValue=0)
-      rad = nt.getEntry('Crosshair Radius').getDouble(defaultValue=5)
+      x = ntVision.getNumber(key='Crosshair - X',defaultValue=0.0)
+      y = ntVision.getNumber(key='Crosshair - Y',defaultValue=0.0)
+      rad = int(round(ntVision.getNumber(key='Crosshair - Radius',defaultValue=3.0)))
 
       # Draw a circle centered at x and y coords
       # with arbitrary radius, color, and thickness?
@@ -84,12 +83,15 @@ if __name__ == "__main__":
       # in the middle
       cv2.circle(
          output_img, 
-         (width/2 + x, height/2 + y), 
+         (round(width/2 + x), round(height/2 + y)), 
          radius = rad, # this probably needs to change to
                      # something smaller
          color = (0, 0, 255), 
-         thickness = 6) # negative thickness might mean
+         thickness = 3) # negative thickness might mean
                           # to fill in the circle?
+      
+      # sends the processed image to Shuffleboard
+      output_stream.putFrame(output_img)
 
       # Calculates processing time
       processing_time = time.time() - start_time
@@ -100,7 +102,4 @@ if __name__ == "__main__":
       fps = 1 / processing_time
 
       # Send the fps data to Shuffleboard
-      nt.putNumber('FPS for Aimer', fps)
-
-      # sends the processed image to Shuffleboard
-      output_stream.putFrame(output_img)
+      ntVision.putNumber('FPS for Aimer', fps)

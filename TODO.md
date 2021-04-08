@@ -13,3 +13,6 @@
 3. Debug issue with CV code
    - Thickness integer issue
    - FPS issue
+
+### Things to probably buy
+1. new Battery Beak

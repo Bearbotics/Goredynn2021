@@ -20,7 +20,7 @@ void Robot::RobotInit()
     std::make_pair("max", nt::Value::MakeDouble(camHeight/2))
   };
   wpi::StringMap<std::shared_ptr<nt::Value>> defaultRadiusRange {
-    std::make_pair("min", nt::Value::MakeDouble(-10)),
+    std::make_pair("min", nt::Value::MakeDouble(0)),
     std::make_pair("max", nt::Value::MakeDouble(camHeight/2))
   };
   // Code for the fancy new Camera Crosshair stuff mebe?
@@ -45,6 +45,8 @@ void Robot::RobotInit()
     .AddPersistent("Crosshair - Radius", 0)
     .WithWidget(frc::BuiltInWidgets::kNumberSlider)
     .WithProperties(defaultRadiusRange);
+  // frc::Shuffleboard::GetTab(visionTabName)
+    
   // frc::Shuffleboard::GetTab(tabName)
   //   .Add("Sensor", false)
   //   .WithWidget(frc::BuiltInWidgets::kBooleanBox);
@@ -54,33 +56,56 @@ void Robot::RobotPeriodic() {}
 void Robot::AutonomousInit() {}
 void Robot::AutonomousPeriodic() {}
 
-void Robot::TeleopInit() {}
+void Robot::TeleopInit() 
+{
+  switchSpeedToGreen_ = true;
+  switchSpeedToGreenNTBool_.SetBoolean(true);
+}
 void Robot::TeleopPeriodic()
 {
   //define variable for absolute heading from pigegon
-  double gyroAngle = pigeon_.GetAbsoluteCompassHeading();
-  
-  // not certain about these controls
-  // and whether field-oriented drive is a good idea or not?
-  // mecanumDrive_.DriveCartesian(pow(firstJoystick_.GetX(),3)*-1, pow(firstJoystick_.GetY(),3),pow(secondJoystick_.GetX(),3) * .7, gyroAngle);
-  // Strafing is reversed for x-axis above soooooooo.......
+  // double gyroAngle = pigeon_.GetAbsoluteCompassHeading();
+  // printf("Value of gyroAngle = %f",gyroAngle);
   
   //construct mecanum drive with inputs from the 2 joysticks & gyroangle for
   //field oreiented control
   mecanumDrive_.DriveCartesian(
-      pow(firstJoystick_.GetY() , 3)      , 
-      pow(firstJoystick_.GetX() , 3)      , 
-      pow(secondJoystick_.GetX(), 3) * .7 , 
-      gyroAngle
+      pow(firstJoystick_.GetY() , 3) * .7 , 
+      pow(firstJoystick_.GetX() , 3) * .7 , 
+      pow(secondJoystick_.GetX(), 3) * .5 
+      // ,gyroAngle
   );
+
+  intakeSignMultiplier_ = secondJoystick_.GetRawButton(sideButton)
+    ? - intakeSignMultiplier_
+    : intakeSignMultiplier_;
+  
+  if (firstJoystick_.GetRawButton(3))
+  {
+    switchSpeedToGreen_ = false;
+    switchSpeedToGreenNTBool_.GetBoolean(false);
+  }
+  switchSpeedToGreen_ = switchSpeedToGreenNTBool_.GetBoolean(false);
+  
   
   // Starts both shooter motors when sideButton is pressed
   // firstJoystick_.GetRawButton(sideButton)                   // condition for if/else
   // ? shooterMotors_.Set(shooterSpeed_.GetDouble(0.25))       // runs if condition is true; sets speed to 0.25 as default
   // : shooterMotors_.Set(0);                                  // runs if condition is else (if not true); sets speed to 0
-  firstJoystick_.GetRawButton(sideButton)
-  ? shooterMotorOne_.Set(shooterSpeed_.GetDouble(0.25))
-  : shooterMotorOne_.Set(0);
+  if (switchSpeedToGreen_)
+  {
+      firstJoystick_.GetRawButton(sideButton)
+      ? shooterMotorOne_.Set(shooterSpeedGreen_.GetDouble(-0.17))
+      : shooterMotorOne_.Set(0);
+  }
+  else
+  {
+      firstJoystick_.GetRawButton(sideButton)
+      ? shooterMotorOne_.Set(shooterSpeed_.GetDouble(0.25))
+      : shooterMotorOne_.Set(0);
+  }
+  
+
 
   // activates the feeder when trigger button is pressed
   // this checks if the trigger button is held down
@@ -90,8 +115,8 @@ void Robot::TeleopPeriodic()
   
   if (secondJoystick_.GetRawButton(triggerButton))
   {
-    escalatorMotor_.Set(escalatorSpeed_.GetDouble(0.5));
-    intakeMotor_.Set(intakeSpeed_.GetDouble(0.5));
+    escalatorMotor_.Set(intakeSignMultiplier_ * escalatorSpeed_.GetDouble(0.5));
+    intakeMotor_.Set(intakeSignMultiplier_ * intakeSpeed_.GetDouble(0.5));
   } 
   else 
   {
@@ -111,11 +136,14 @@ void Robot::DisabledPeriodic() {}
 void Robot::TestInit() {}
 void Robot::TestPeriodic() 
 {
+  double gyroAngle = pigeon_.GetAbsoluteCompassHeading();
+  printf("Value of gyroAngle = %f",gyroAngle);
   // just run teleop
   // see if something could be implemented
   // to lock networktableentry values / not receive
   // input from Shuffleboard during teleop, but only during testing?
   TeleopPeriodic();
+  printf("%f",shooterMotorOne_.Get());
 }
 
 #ifndef RUNNING_FRC_TESTS
