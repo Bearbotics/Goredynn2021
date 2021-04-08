@@ -133,28 +133,33 @@ private:
     nt::NetworkTableEntry actualEscalatorSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
                                                 .AddPersistent("Actual Escalator Speed", 0.0)
                                                 .WithWidget(frc::BuiltInWidgets::kNumberBar)
-                                                .WithPosition(1, 1)
+                                                .WithPosition(1, 2)
                                                 .WithSize(5,1)
                                                 .GetEntry();
     nt::NetworkTableEntry actualFeederSpeed_ = frc::Shuffleboard::GetTab(testingTabName)
                                              .AddPersistent("Actual Feeder Speed", 0.0)
                                              .WithWidget(frc::BuiltInWidgets::kNumberBar)
-                                             .WithPosition(1, 2)
+                                             .WithPosition(1, 3)
                                              .WithSize(5,1)
                                              .GetEntry();
     nt::NetworkTableEntry actualShooterSpeed1_ = frc::Shuffleboard::GetTab(testingTabName)
                                               .AddPersistent("Actual Shooter Motor 1 Speed", 0.0)
                                               .WithWidget(frc::BuiltInWidgets::kNumberBar)
-                                              .WithPosition(1, 3)
+                                              .WithPosition(1, 4)
                                               .WithSize(5,1)
                                               .GetEntry();
     nt::NetworkTableEntry actualShooterSpeed2_ = frc::Shuffleboard::GetTab(testingTabName)
                                               .AddPersistent("Actual Shooter Motor 2 - Following so prolly doesn't matter", 0.0)
                                               .WithWidget(frc::BuiltInWidgets::kNumberBar)
-                                              .WithPosition(1, 4)
+                                              .WithPosition(1, 5)
                                               .WithSize(5,1)
                                               .GetEntry();
-    
+    nt::NetworkTableEntry actualIntakeReversal_ = frc::Shuffleboard::GetTab(testingTabName)
+                                            .AddPersistent("Intake Reversal", false)
+                                            .WithWidget(frc::BuiltInWidgets::kBooleanBox)
+                                            .WithPosition(1, 5)
+                                            .WithSize(5,1)
+                                            .GetEntry();
     // nt::NetworkTableInstance defaultNTInst_ = nt::NetworkTableInstance::GetDefault();
     // std::shared_ptr<nt::NetworkTable> cameraPublisher_ = defaultNTInst_.GetTable("CameraPublisher");
     // std::shared_ptr<nt::Value> shooterCam_ = cameraPublisher_->GetValue("Aim Cam Processed");

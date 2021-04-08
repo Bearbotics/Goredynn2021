@@ -75,10 +75,14 @@ void Robot::TeleopPeriodic()
       pow(secondJoystick_.GetX(), 3) * .5 
       // ,gyroAngle
   );
-
-  intakeSignMultiplier_ = secondJoystick_.GetRawButton(sideButton)
-    ? - intakeSignMultiplier_
-    : intakeSignMultiplier_;
+  if (secondJoystick_.GetRawButton(sideButton))
+  {
+    intakeSignMultiplier_ = -1;
+  }
+  else
+  {
+    intakeSignMultiplier_ = 1;
+  }
   
   if (firstJoystick_.GetRawButton(3))
   {
@@ -149,6 +153,14 @@ void Robot::TestPeriodic()
   actualFeederSpeed_.SetDouble(feederMotor_.Get());
   actualShooterSpeed1_.SetDouble(shooterMotorOne_.Get());
   actualShooterSpeed2_.SetDouble(shooterMotorTwo_.Get());
+  if (intakeSignMultiplier_ == 1)
+  {
+    actualIntakeReversal_.SetBoolean(false);
+  }
+  else if (intakeSignMultiplier_ == -1)
+  {
+    actualIntakeReversal_.SetBoolean(true);
+  }
 }
 
 #ifndef RUNNING_FRC_TESTS
